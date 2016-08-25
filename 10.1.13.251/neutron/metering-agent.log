@@ -1,0 +1,3 @@
+2016-08-25 13:45:06.955 8372 INFO neutron.common.config [-] Logging enabled!
+2016-08-25 13:45:06.956 8372 INFO neutron.common.config [-] /usr/bin/neutron-metering-agent version 8.1.2
+2016-08-25 13:45:06.956 8372 INFO neutron.services.metering.agents.metering_agent [-] Loading Metering driver neutron.services.metering.drivers.noop.noop_driver.NoopMeteringDriver

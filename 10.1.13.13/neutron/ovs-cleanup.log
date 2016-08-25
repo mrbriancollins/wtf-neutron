@@ -1,0 +1,114 @@
+2016-08-17 15:42:19.837 1849 INFO neutron.common.config [-] Logging enabled!
+2016-08-17 15:42:19.837 1849 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-17 15:42:19.928 1849 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=1999
+2016-08-17 15:42:19.954 1849 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-17 15:42:19.965 1849 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-17 15:42:19.967 1849 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=1999
+2016-08-18 11:34:59.221 9352 INFO neutron.common.config [-] Logging enabled!
+2016-08-18 11:34:59.222 9352 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-18 11:34:59.292 9352 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=9371
+2016-08-18 11:34:59.318 9352 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-18 11:34:59.329 9352 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-18 11:34:59.330 9352 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=9371
+2016-08-18 11:38:14.500 1938 INFO neutron.common.config [-] Logging enabled!
+2016-08-18 11:38:14.501 1938 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-18 11:38:14.638 1938 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2048
+2016-08-18 11:38:14.663 1938 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-18 11:38:14.674 1938 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-18 11:38:14.676 1938 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2048
+2016-08-18 20:07:06.979 2087 INFO neutron.common.config [-] Logging enabled!
+2016-08-18 20:07:06.979 2087 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-18 20:07:07.049 2087 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2223
+2016-08-18 20:07:07.075 2087 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-18 20:07:07.087 2087 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-18 20:07:07.089 2087 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2223
+2016-08-18 20:10:22.569 1963 INFO neutron.common.config [-] Logging enabled!
+2016-08-18 20:10:22.570 1963 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-18 20:10:22.661 1963 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2073
+2016-08-18 20:10:22.686 1963 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-18 20:10:22.696 1963 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-18 20:10:22.698 1963 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2073
+2016-08-19 10:09:13.587 23918 INFO neutron.common.config [-] Logging enabled!
+2016-08-19 10:09:13.587 23918 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-19 10:09:13.657 23918 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=23934
+2016-08-19 10:09:13.682 23918 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-19 10:09:13.694 23918 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-19 10:09:13.695 23918 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=23934
+2016-08-19 10:12:08.193 1952 INFO neutron.common.config [-] Logging enabled!
+2016-08-19 10:12:08.193 1952 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-19 10:12:08.339 1952 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2068
+2016-08-19 10:12:08.364 1952 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-19 10:12:08.375 1952 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-19 10:12:08.376 1952 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2068
+2016-08-19 10:22:34.360 13151 INFO neutron.common.config [-] Logging enabled!
+2016-08-19 10:22:34.360 13151 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-19 10:22:34.430 13151 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=13167
+2016-08-19 10:22:34.459 13151 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-19 10:22:34.471 13151 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-19 10:22:34.473 13151 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=13167
+2016-08-19 10:27:53.307 1938 INFO neutron.common.config [-] Logging enabled!
+2016-08-19 10:27:53.308 1938 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-19 10:27:53.400 1938 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2045
+2016-08-19 10:27:53.425 1938 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-19 10:27:53.436 1938 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-19 10:27:53.438 1938 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2045
+2016-08-19 12:38:57.353 21127 INFO neutron.common.config [-] Logging enabled!
+2016-08-19 12:38:57.354 21127 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-19 12:38:57.423 21127 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=21140
+2016-08-19 12:38:57.452 21127 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-19 12:38:57.463 21127 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-19 12:38:57.465 21127 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=21140
+2016-08-19 12:42:17.037 2254 INFO neutron.common.config [-] Logging enabled!
+2016-08-19 12:42:17.038 2254 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-19 12:42:17.132 2254 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2412
+2016-08-19 12:42:17.158 2254 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-19 12:42:17.170 2254 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-19 12:42:17.171 2254 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2412
+2016-08-19 13:16:06.234 8330 INFO neutron.common.config [-] Logging enabled!
+2016-08-19 13:16:06.234 8330 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-19 13:16:06.304 8330 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=8339
+2016-08-19 13:16:06.332 8330 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-19 13:16:06.344 8330 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-19 13:16:06.346 8330 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=8339
+2016-08-19 13:19:25.949 2452 INFO neutron.common.config [-] Logging enabled!
+2016-08-19 13:19:25.950 2452 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-19 13:19:26.032 2452 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2561
+2016-08-19 13:19:26.055 2452 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-19 13:19:26.065 2452 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-19 13:19:26.067 2452 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2561
+2016-08-23 03:31:39.083 6363 INFO neutron.common.config [-] Logging enabled!
+2016-08-23 03:31:39.084 6363 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-23 03:31:39.153 6363 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=6372
+2016-08-23 03:31:39.181 6363 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-23 03:31:39.193 6363 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-23 03:31:39.195 6363 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=6372
+2016-08-23 03:37:17.073 2351 INFO neutron.common.config [-] Logging enabled!
+2016-08-23 03:37:17.073 2351 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-23 03:37:17.185 2351 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2465
+2016-08-23 03:37:17.211 2351 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-23 03:37:17.223 2351 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-23 03:37:17.225 2351 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2465
+2016-08-25 02:42:32.451 21125 INFO neutron.common.config [-] Logging enabled!
+2016-08-25 02:42:32.451 21125 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-25 02:42:32.521 21125 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=21134
+2016-08-25 02:42:32.549 21125 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-25 02:42:32.560 21125 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-25 02:42:32.562 21125 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=21134
+2016-08-25 02:50:30.050 27638 INFO neutron.common.config [-] Logging enabled!
+2016-08-25 02:50:30.051 27638 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-25 02:50:30.141 27638 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=27999
+2016-08-25 02:50:30.169 27638 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-25 02:50:30.181 27638 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-25 02:50:30.182 27638 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=27999
+2016-08-25 11:43:23.461 2456 INFO neutron.common.config [-] Logging enabled!
+2016-08-25 11:43:23.461 2456 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-25 11:43:23.531 2456 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2472
+2016-08-25 11:43:23.560 2456 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-25 11:43:23.572 2456 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-25 11:43:23.574 2456 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2472
+2016-08-25 11:49:18.892 2381 INFO neutron.common.config [-] Logging enabled!
+2016-08-25 11:49:18.893 2381 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-25 11:49:18.985 2381 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2529
+2016-08-25 11:49:19.013 2381 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-25 11:49:19.024 2381 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-25 11:49:19.026 2381 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2529
