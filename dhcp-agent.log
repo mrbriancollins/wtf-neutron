@@ -1,0 +1,39 @@
+2016-08-25 13:45:06.962 8369 INFO neutron.common.config [-] Logging enabled!
+2016-08-25 13:45:06.963 8369 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 8.1.2
+2016-08-25 13:45:07.005 8369 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2016-08-25 13:45:11.376 8369 INFO neutron.agent.dhcp.agent [-] All active networks have been fetched through RPC.
+2016-08-25 13:45:11.376 8369 INFO neutron.agent.dhcp.agent [-] Starting network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-25 13:45:11.377 8369 INFO neutron.agent.dhcp.agent [-] Finished network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-25 13:45:11.377 8369 INFO neutron.agent.dhcp.agent [-] Starting network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-25 13:45:11.378 8369 INFO neutron.agent.dhcp.agent [-] Finished network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-25 13:45:11.378 8369 INFO neutron.agent.dhcp.agent [-] Starting network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-25 13:45:11.379 8369 INFO neutron.agent.dhcp.agent [-] Finished network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-25 13:45:11.379 8369 INFO neutron.agent.dhcp.agent [-] Starting network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-25 13:45:11.561 8369 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=8594
+2016-08-25 13:45:11.602 8369 INFO neutron.agent.dhcp.agent [-] Finished network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-25 13:45:11.602 8369 INFO neutron.agent.dhcp.agent [-] Synchronizing state complete
+2016-08-25 13:45:11.618 8369 INFO neutron.agent.dhcp.agent [req-7ce0dbf6-b20f-4042-a873-aac00f83fc5b - - - - -] Synchronizing state
+2016-08-25 13:45:11.654 8369 INFO neutron.agent.dhcp.agent [-] DHCP agent started
+2016-08-25 13:45:11.826 8369 INFO neutron.agent.dhcp.agent [req-7ce0dbf6-b20f-4042-a873-aac00f83fc5b - - - - -] All active networks have been fetched through RPC.
+2016-08-25 13:45:11.827 8369 INFO neutron.agent.dhcp.agent [-] Starting network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-25 13:45:11.828 8369 INFO neutron.agent.dhcp.agent [-] Finished network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-25 13:45:11.828 8369 INFO neutron.agent.dhcp.agent [-] Starting network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-25 13:45:11.828 8369 INFO neutron.agent.dhcp.agent [-] Finished network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-25 13:45:11.828 8369 INFO neutron.agent.dhcp.agent [-] Starting network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-25 13:45:11.829 8369 INFO neutron.agent.dhcp.agent [-] Finished network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-25 13:45:11.829 8369 INFO neutron.agent.dhcp.agent [-] Starting network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-25 13:45:11.862 8369 INFO neutron.agent.dhcp.agent [-] Finished network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-25 13:45:11.862 8369 INFO neutron.agent.dhcp.agent [req-7ce0dbf6-b20f-4042-a873-aac00f83fc5b - - - - -] Synchronizing state complete
+2016-08-25 13:45:37.008 8369 INFO neutron.agent.dhcp.agent [req-214c53bd-d118-43e6-87eb-a45e2ddcc9df - - - - -] Agent has just been revived. Scheduling full sync
+2016-08-25 13:45:41.863 8369 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2016-08-25 13:45:42.142 8369 INFO neutron.agent.dhcp.agent [-] All active networks have been fetched through RPC.
+2016-08-25 13:45:42.142 8369 INFO neutron.agent.dhcp.agent [-] Starting network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-25 13:45:42.143 8369 INFO neutron.agent.dhcp.agent [-] Finished network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-25 13:45:42.143 8369 INFO neutron.agent.dhcp.agent [-] Starting network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-25 13:45:42.143 8369 INFO neutron.agent.dhcp.agent [-] Finished network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-25 13:45:42.144 8369 INFO neutron.agent.dhcp.agent [-] Starting network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-25 13:45:42.144 8369 INFO neutron.agent.dhcp.agent [-] Finished network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-25 13:45:42.144 8369 INFO neutron.agent.dhcp.agent [-] Starting network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-25 13:45:42.178 8369 INFO neutron.agent.dhcp.agent [-] Finished network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-25 13:45:42.178 8369 INFO neutron.agent.dhcp.agent [-] Synchronizing state complete
+2016-08-25 14:15:24.835 8369 INFO neutron.agent.dhcp.agent [req-e16d0145-0ee8-470a-89b4-5ff17d6763d6 25dc8486e6494b1faa4d67d55613bcef b1b76b14f4824704bd65e7f8e8e37a5c - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=, binding:profile=, binding:vif_details=, binding:vif_type=unbound, binding:vnic_type=normal, created_at=2016-08-25T18:15:24, description=, device_id=5bfa5afb-52da-409d-84c4-06c4331f2d8d, device_owner=network:router_interface, dns_name=None, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'9b7e611a-5fd9-4620-b6b6-77eea27657d3', u'ip_address': u'10.2.10.1'}], id=2e88e15b-da49-494a-bfa3-b0ce9957c7aa, mac_address=fa:16:3e:f2:f0:e4, name=, network_id=31d51529-5a6e-4dab-9c4f-a144feb975d6, security_groups=[], status=DOWN, tenant_id=b1b76b14f4824704bd65e7f8e8e37a5c, updated_at=2016-08-25T18:15:24
