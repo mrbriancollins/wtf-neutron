@@ -1,0 +1,569 @@
+10.1.13.11
+7dfed081-38f2-493f-90ce-6179073a25d2
+    Bridge br-int
+        fail_mode: secure
+        Port "int-patch-10"
+            Interface "int-patch-10"
+                type: patch
+                options: {peer="10-patch-int"}
+        Port br-int
+            Interface br-int
+                type: internal
+        Port patch-tun
+            Interface patch-tun
+                type: patch
+                options: {peer=patch-int}
+        Port "int-patch-15"
+            Interface "int-patch-15"
+                type: patch
+                options: {peer="15-patch-int"}
+    Bridge "br999"
+        Port "em3.999"
+            tag: 10
+            Interface "em3.999"
+        Port "br999"
+            tag: 999
+            Interface "br999"
+                type: internal
+        Port "999-patch-ex"
+            Interface "999-patch-ex"
+                type: patch
+                options: {peer="ex-patch-999"}
+    Bridge "br10"
+        Port "br10"
+            tag: 10
+            Interface "br10"
+                type: internal
+        Port "em3"
+            tag: 10
+            Interface "em3"
+        Port "10-patch-int"
+            Interface "10-patch-int"
+                type: patch
+                options: {peer="int-patch-10"}
+    Bridge "br15"
+        Port "br15"
+            tag: 15
+            Interface "br15"
+                type: internal
+        Port "em3.15"
+            tag: 15
+            Interface "em3.15"
+        Port "15-patch-int"
+            Interface "15-patch-int"
+                type: patch
+                options: {peer="int-patch-15"}
+    Bridge br-tun
+        fail_mode: secure
+        Port "vxlan-0a010d0d"
+            Interface "vxlan-0a010d0d"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.13.13"}
+        Port br-tun
+            Interface br-tun
+                type: internal
+        Port "gre-0a010ad6"
+            Interface "gre-0a010ad6"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.211", out_key=flow, remote_ip="10.1.10.214"}
+        Port "vxlan-0a010d0e"
+            Interface "vxlan-0a010d0e"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.13.14"}
+        Port patch-int
+            Interface patch-int
+                type: patch
+                options: {peer=patch-tun}
+        Port "gre-0a010d0d"
+            Interface "gre-0a010d0d"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.13.13"}
+        Port "vxlan-0a010ad6"
+            Interface "vxlan-0a010ad6"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.211", out_key=flow, remote_ip="10.1.10.214"}
+        Port "gre-0a010d0c"
+            Interface "gre-0a010d0c"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.13.12"}
+        Port "vxlan-0a010d0c"
+            Interface "vxlan-0a010d0c"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.13.12"}
+        Port "gre-0a010d0e"
+            Interface "gre-0a010d0e"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.13.14"}
+        Port "gre-0a010dfb"
+            Interface "gre-0a010dfb"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.13.251"}
+        Port "gre-0a010ad5"
+            Interface "gre-0a010ad5"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.10.213"}
+        Port "vxlan-0a010dfb"
+            Interface "vxlan-0a010dfb"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.11", out_key=flow, remote_ip="10.1.13.251"}
+    ovs_version: "2.5.0"
+10.1.13.12
+2b965126-04b6-4674-bcb8-7cb15f4f6692
+    Bridge "br10"
+        Port "em3"
+            tag: 10
+            Interface "em3"
+        Port "10-patch-int"
+            Interface "10-patch-int"
+                type: patch
+                options: {peer="int-patch-10"}
+        Port "br10"
+            tag: 10
+            Interface "br10"
+                type: internal
+    Bridge br-tun
+        fail_mode: secure
+        Port "gre-0a010d0b"
+            Interface "gre-0a010d0b"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.12", out_key=flow, remote_ip="10.1.13.11"}
+        Port patch-int
+            Interface patch-int
+                type: patch
+                options: {peer=patch-tun}
+        Port "gre-0a010ad3"
+            Interface "gre-0a010ad3"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.212", out_key=flow, remote_ip="10.1.10.211"}
+        Port "vxlan-0a010dfb"
+            Interface "vxlan-0a010dfb"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.12", out_key=flow, remote_ip="10.1.13.251"}
+        Port "vxlan-0a010ad5"
+            Interface "vxlan-0a010ad5"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.212", out_key=flow, remote_ip="10.1.10.213"}
+        Port "gre-0a010d0e"
+            Interface "gre-0a010d0e"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.12", out_key=flow, remote_ip="10.1.13.14"}
+        Port "vxlan-0a010d0d"
+            Interface "vxlan-0a010d0d"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.12", out_key=flow, remote_ip="10.1.13.13"}
+        Port "vxlan-0a010ad3"
+            Interface "vxlan-0a010ad3"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.212", out_key=flow, remote_ip="10.1.10.211"}
+        Port br-tun
+            Interface br-tun
+                type: internal
+        Port "vxlan-0a010d0e"
+            Interface "vxlan-0a010d0e"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.12", out_key=flow, remote_ip="10.1.13.14"}
+        Port "gre-0a010d0d"
+            Interface "gre-0a010d0d"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.12", out_key=flow, remote_ip="10.1.13.13"}
+        Port "vxlan-0a010d0b"
+            Interface "vxlan-0a010d0b"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.12", out_key=flow, remote_ip="10.1.13.11"}
+        Port "vxlan-0a010ad6"
+            Interface "vxlan-0a010ad6"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.212", out_key=flow, remote_ip="10.1.10.214"}
+        Port "gre-0a010ad6"
+            Interface "gre-0a010ad6"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.212", out_key=flow, remote_ip="10.1.10.214"}
+        Port "gre-0a010ad5"
+            Interface "gre-0a010ad5"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.212", out_key=flow, remote_ip="10.1.10.213"}
+        Port "gre-0a010dfb"
+            Interface "gre-0a010dfb"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.12", out_key=flow, remote_ip="10.1.13.251"}
+    Bridge br-int
+        fail_mode: secure
+        Port "int-patch-10"
+            Interface "int-patch-10"
+                type: patch
+                options: {peer="10-patch-int"}
+        Port br-int
+            Interface br-int
+                type: internal
+        Port "int-patch-15"
+            Interface "int-patch-15"
+                type: patch
+                options: {peer="15-patch-int"}
+        Port patch-tun
+            Interface patch-tun
+                type: patch
+                options: {peer=patch-int}
+    Bridge "br15"
+        Port "br15"
+            tag: 15
+            Interface "br15"
+                type: internal
+        Port "em3.15"
+            tag: 15
+            Interface "em3.15"
+        Port "15-patch-int"
+            Interface "15-patch-int"
+                type: patch
+                options: {peer="int-patch-15"}
+    Bridge "br999"
+        Port "br999"
+            tag: 999
+            Interface "br999"
+                type: internal
+        Port "999-patch-ex"
+            Interface "999-patch-ex"
+                type: patch
+                options: {peer="ex-patch-999"}
+        Port "em3.999"
+            tag: 999
+            Interface "em3.999"
+    ovs_version: "2.5.0"
+10.1.13.13
+a4490337-57c3-494d-8d51-dca05add78a4
+    Bridge "br999"
+        Port "999-patch-ex"
+            Interface "999-patch-ex"
+                type: patch
+                options: {peer="ex-patch-999"}
+        Port "em3.999"
+            tag: 999
+            Interface "em3.999"
+        Port "br999"
+            tag: 999
+            Interface "br999"
+                type: internal
+    Bridge "br15"
+        Port "em3.15"
+            tag: 15
+            Interface "em3.15"
+        Port "br15"
+            tag: 15
+            Interface "br15"
+                type: internal
+        Port "15-patch-int"
+            Interface "15-patch-int"
+                type: patch
+                options: {peer="int-patch-15"}
+    Bridge br-tun
+        fail_mode: secure
+        Port "gre-0a010d0c"
+            Interface "gre-0a010d0c"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.13", out_key=flow, remote_ip="10.1.13.12"}
+        Port patch-int
+            Interface patch-int
+                type: patch
+                options: {peer=patch-tun}
+        Port "vxlan-0a010ad6"
+            Interface "vxlan-0a010ad6"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.213", out_key=flow, remote_ip="10.1.10.214"}
+        Port "gre-0a010dfb"
+            Interface "gre-0a010dfb"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.13", out_key=flow, remote_ip="10.1.13.251"}
+        Port "vxlan-0a010d0b"
+            Interface "vxlan-0a010d0b"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.13", out_key=flow, remote_ip="10.1.13.11"}
+        Port "gre-0a010d0b"
+            Interface "gre-0a010d0b"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.13", out_key=flow, remote_ip="10.1.13.11"}
+        Port br-tun
+            Interface br-tun
+                type: internal
+        Port "vxlan-0a010dfb"
+            Interface "vxlan-0a010dfb"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.13", out_key=flow, remote_ip="10.1.13.251"}
+        Port "gre-0a010d0e"
+            Interface "gre-0a010d0e"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.13", out_key=flow, remote_ip="10.1.13.14"}
+        Port "vxlan-0a010d0c"
+            Interface "vxlan-0a010d0c"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.13", out_key=flow, remote_ip="10.1.13.12"}
+        Port "gre-0a010ad6"
+            Interface "gre-0a010ad6"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.213", out_key=flow, remote_ip="10.1.10.214"}
+        Port "vxlan-0a010ad3"
+            Interface "vxlan-0a010ad3"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.213", out_key=flow, remote_ip="10.1.10.211"}
+        Port "vxlan-0a010d0e"
+            Interface "vxlan-0a010d0e"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.13", out_key=flow, remote_ip="10.1.13.14"}
+        Port "gre-0a010ad3"
+            Interface "gre-0a010ad3"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.10.213", out_key=flow, remote_ip="10.1.10.211"}
+    Bridge br-int
+        fail_mode: secure
+        Port "int-patch-15"
+            Interface "int-patch-15"
+                type: patch
+                options: {peer="15-patch-int"}
+        Port "int-patch-10"
+            Interface "int-patch-10"
+                type: patch
+                options: {peer="10-patch-int"}
+        Port br-int
+            Interface br-int
+                type: internal
+        Port patch-tun
+            Interface patch-tun
+                type: patch
+                options: {peer=patch-int}
+    Bridge "br10"
+        Port "em3"
+            tag: 10
+            Interface "em3"
+        Port "br10"
+            tag: 10
+            Interface "br10"
+                type: internal
+        Port "10-patch-int"
+            Interface "10-patch-int"
+                type: patch
+                options: {peer="int-patch-10"}
+    ovs_version: "2.5.0"
+10.1.13.14
+9050334d-eebf-48db-bdc1-e1d3d8b83f07
+    Bridge "br15"
+        Port "em3.15"
+            tag: 15
+            Interface "em3.15"
+        Port "15-patch-int"
+            Interface "15-patch-int"
+                type: patch
+                options: {peer="int-patch-15"}
+        Port "br15"
+            tag: 15
+            Interface "br15"
+                type: internal
+    Bridge br-tun
+        fail_mode: secure
+        Port "gre-0a010dfb"
+            Interface "gre-0a010dfb"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.14", out_key=flow, remote_ip="10.1.13.251"}
+        Port "vxlan-0a010d0d"
+            Interface "vxlan-0a010d0d"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.14", out_key=flow, remote_ip="10.1.13.13"}
+        Port patch-int
+            Interface patch-int
+                type: patch
+                options: {peer=patch-tun}
+        Port "vxlan-0a010d0c"
+            Interface "vxlan-0a010d0c"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.14", out_key=flow, remote_ip="10.1.13.12"}
+        Port "gre-0a010d0b"
+            Interface "gre-0a010d0b"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.14", out_key=flow, remote_ip="10.1.13.11"}
+        Port "gre-0a010d0d"
+            Interface "gre-0a010d0d"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.14", out_key=flow, remote_ip="10.1.13.13"}
+        Port "gre-0a010d0c"
+            Interface "gre-0a010d0c"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.14", out_key=flow, remote_ip="10.1.13.12"}
+        Port "vxlan-0a010dfb"
+            Interface "vxlan-0a010dfb"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.14", out_key=flow, remote_ip="10.1.13.251"}
+        Port "vxlan-0a010d0b"
+            Interface "vxlan-0a010d0b"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.14", out_key=flow, remote_ip="10.1.13.11"}
+        Port br-tun
+            Interface br-tun
+                type: internal
+    Bridge "br10"
+        Port "em3"
+            tag: 10
+            Interface "em3"
+        Port "10-patch-int"
+            Interface "10-patch-int"
+                type: patch
+                options: {peer="int-patch-10"}
+        Port "br10"
+            tag: 10
+            Interface "br10"
+                type: internal
+    Bridge "br999"
+        Port "br999"
+            tag: 999
+            Interface "br999"
+                type: internal
+        Port "em3.999"
+            tag: 999
+            Interface "em3.999"
+        Port "999-patch-ex"
+            Interface "999-patch-ex"
+                type: patch
+                options: {peer="ex-patch-999"}
+    Bridge br-int
+        fail_mode: secure
+        Port patch-tun
+            Interface patch-tun
+                type: patch
+                options: {peer=patch-int}
+        Port br-int
+            Interface br-int
+                type: internal
+        Port "int-patch-10"
+            Interface "int-patch-10"
+                type: patch
+                options: {peer="10-patch-int"}
+        Port "int-patch-15"
+            Interface "int-patch-15"
+                type: patch
+                options: {peer="15-patch-int"}
+    ovs_version: "2.5.0"
+10.1.13.251
+5695c83a-f8c0-4d74-9d2d-21a863f47f98
+    Bridge br-ex
+        Port br-ex
+            Interface br-ex
+                type: internal
+        Port "ex-patch-999"
+            Interface "ex-patch-999"
+                type: patch
+                options: {peer="999-patch-ex"}
+    Bridge "br999"
+        Port "999-patch-ex"
+            Interface "999-patch-ex"
+                type: patch
+                options: {peer="ex-patch-999"}
+        Port "phy-br999"
+            Interface "phy-br999"
+                type: patch
+                options: {peer="int-br999"}
+        Port "br999"
+            tag: 999
+            Interface "br999"
+                type: internal
+        Port "em1.999"
+            tag: 999
+            Interface "em1.999"
+    Bridge br-tun
+        fail_mode: secure
+        Port "gre-0a010d0d"
+            Interface "gre-0a010d0d"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.251", out_key=flow, remote_ip="10.1.13.13"}
+        Port "gre-0a010d0e"
+            Interface "gre-0a010d0e"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.251", out_key=flow, remote_ip="10.1.13.14"}
+        Port "vxlan-0a010d0d"
+            Interface "vxlan-0a010d0d"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.251", out_key=flow, remote_ip="10.1.13.13"}
+        Port "vxlan-0a010d0b"
+            Interface "vxlan-0a010d0b"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.251", out_key=flow, remote_ip="10.1.13.11"}
+        Port "vxlan-0a010d0c"
+            Interface "vxlan-0a010d0c"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.251", out_key=flow, remote_ip="10.1.13.12"}
+        Port "gre-0a010d0c"
+            Interface "gre-0a010d0c"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.251", out_key=flow, remote_ip="10.1.13.12"}
+        Port "gre-0a010d0b"
+            Interface "gre-0a010d0b"
+                type: gre
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.251", out_key=flow, remote_ip="10.1.13.11"}
+        Port "vxlan-0a010d0e"
+            Interface "vxlan-0a010d0e"
+                type: vxlan
+                options: {df_default="true", in_key=flow, local_ip="10.1.13.251", out_key=flow, remote_ip="10.1.13.14"}
+        Port br-tun
+            Interface br-tun
+                type: internal
+        Port patch-int
+            Interface patch-int
+                type: patch
+                options: {peer=patch-tun}
+    Bridge "br15"
+        Port "br15"
+            tag: 15
+            Interface "br15"
+                type: internal
+        Port "phy-br15"
+            Interface "phy-br15"
+                type: patch
+                options: {peer="int-br15"}
+        Port "15-patch-int"
+            Interface "15-patch-int"
+                type: patch
+                options: {peer="int-patch-15"}
+        Port "em1.15"
+            tag: 15
+            Interface "em1.15"
+    Bridge br-int
+        fail_mode: secure
+        Port "int-br999"
+            Interface "int-br999"
+                type: patch
+                options: {peer="phy-br999"}
+        Port "int-patch-15"
+            Interface "int-patch-15"
+                type: patch
+                options: {peer="15-patch-int"}
+        Port patch-tun
+            Interface patch-tun
+                type: patch
+                options: {peer=patch-int}
+        Port "int-br15"
+            Interface "int-br15"
+                type: patch
+                options: {peer="phy-br15"}
+        Port "int-patch-10"
+            Interface "int-patch-10"
+                type: patch
+                options: {peer="10-patch-int"}
+        Port br-int
+            Interface br-int
+                type: internal
+        Port "int-br10"
+            Interface "int-br10"
+                type: patch
+                options: {peer="phy-br10"}
+    Bridge "br10"
+        Port "phy-br10"
+            Interface "phy-br10"
+                type: patch
+                options: {peer="int-br10"}
+        Port "em1.10"
+            tag: 10
+            Interface "em1.10"
+        Port "10-patch-int"
+            Interface "10-patch-int"
+                type: patch
+                options: {peer="int-patch-10"}
+        Port "br10"
+            tag: 10
+            Interface "br10"
+                type: internal
+    ovs_version: "2.5.0"

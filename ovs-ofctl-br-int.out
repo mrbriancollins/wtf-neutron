@@ -1,0 +1,122 @@
+10.1.13.11
+OFPT_FEATURES_REPLY (xid=0x2): dpid:00009eb0c4314141
+n_tables:254, n_buffers:256
+capabilities: FLOW_STATS TABLE_STATS PORT_STATS QUEUE_STATS ARP_MATCH_IP
+actions: output enqueue set_vlan_vid set_vlan_pcp strip_vlan mod_dl_src mod_dl_dst mod_nw_src mod_nw_dst mod_nw_tos mod_tp_src mod_tp_dst
+ 1(patch-tun): addr:76:8b:37:13:79:11
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 2(int-patch-10): addr:ba:34:62:d0:82:87
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 3(int-patch-15): addr:ea:4e:ce:06:22:65
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ LOCAL(br-int): addr:9e:b0:c4:31:41:41
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max
+OFPT_GET_CONFIG_REPLY (xid=0x4): frags=normal miss_send_len=0
+10.1.13.12
+OFPT_FEATURES_REPLY (xid=0x2): dpid:000082849e680044
+n_tables:254, n_buffers:256
+capabilities: FLOW_STATS TABLE_STATS PORT_STATS QUEUE_STATS ARP_MATCH_IP
+actions: output enqueue set_vlan_vid set_vlan_pcp strip_vlan mod_dl_src mod_dl_dst mod_nw_src mod_nw_dst mod_nw_tos mod_tp_src mod_tp_dst
+ 1(patch-tun): addr:ee:5a:1e:93:4c:0f
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 2(int-patch-10): addr:aa:86:6a:b1:b6:18
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 3(int-patch-15): addr:ea:26:f5:a9:be:6f
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ LOCAL(br-int): addr:82:84:9e:68:00:44
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max
+OFPT_GET_CONFIG_REPLY (xid=0x4): frags=normal miss_send_len=0
+10.1.13.13
+OFPT_FEATURES_REPLY (xid=0x2): dpid:00007ab6e981974e
+n_tables:254, n_buffers:256
+capabilities: FLOW_STATS TABLE_STATS PORT_STATS QUEUE_STATS ARP_MATCH_IP
+actions: output enqueue set_vlan_vid set_vlan_pcp strip_vlan mod_dl_src mod_dl_dst mod_nw_src mod_nw_dst mod_nw_tos mod_tp_src mod_tp_dst
+ 1(patch-tun): addr:6e:fa:39:e8:37:0b
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 2(int-patch-10): addr:4e:00:7a:bd:74:00
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 3(int-patch-15): addr:f6:52:36:b6:e1:54
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ LOCAL(br-int): addr:7a:b6:e9:81:97:4e
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max
+OFPT_GET_CONFIG_REPLY (xid=0x4): frags=normal miss_send_len=0
+10.1.13.14
+OFPT_FEATURES_REPLY (xid=0x2): dpid:00000af1e8dbae4d
+n_tables:254, n_buffers:256
+capabilities: FLOW_STATS TABLE_STATS PORT_STATS QUEUE_STATS ARP_MATCH_IP
+actions: output enqueue set_vlan_vid set_vlan_pcp strip_vlan mod_dl_src mod_dl_dst mod_nw_src mod_nw_dst mod_nw_tos mod_tp_src mod_tp_dst
+ 1(patch-tun): addr:de:61:de:7d:ee:9c
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 3(int-patch-10): addr:a2:5d:a8:ff:0d:b2
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 4(int-patch-15): addr:3e:bc:e5:e5:ce:d4
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ LOCAL(br-int): addr:0a:f1:e8:db:ae:4d
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max
+OFPT_GET_CONFIG_REPLY (xid=0x4): frags=normal miss_send_len=0
+10.1.13.251
+OFPT_FEATURES_REPLY (xid=0x2): dpid:0000eaac5fcde94c
+n_tables:254, n_buffers:256
+capabilities: FLOW_STATS TABLE_STATS PORT_STATS QUEUE_STATS ARP_MATCH_IP
+actions: output enqueue set_vlan_vid set_vlan_pcp strip_vlan mod_dl_src mod_dl_dst mod_nw_src mod_nw_dst mod_nw_tos mod_tp_src mod_tp_dst
+ 1(patch-tun): addr:aa:a8:4e:70:84:9a
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 5(int-patch-10): addr:9e:d0:49:53:53:a2
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 6(int-patch-15): addr:c6:ea:cb:6c:ad:23
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 13(int-br10): addr:7a:63:30:52:d4:a6
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 14(int-br999): addr:7e:10:11:86:70:ec
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 15(int-br15): addr:d6:09:7e:2e:f4:70
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ LOCAL(br-int): addr:ea:ac:5f:cd:e9:4c
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max
+OFPT_GET_CONFIG_REPLY (xid=0x4): frags=normal miss_send_len=0
