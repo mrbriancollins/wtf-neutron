@@ -37,3 +37,121 @@
 2016-08-25 13:45:42.178 8369 INFO neutron.agent.dhcp.agent [-] Finished network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
 2016-08-25 13:45:42.178 8369 INFO neutron.agent.dhcp.agent [-] Synchronizing state complete
 2016-08-25 14:15:24.835 8369 INFO neutron.agent.dhcp.agent [req-e16d0145-0ee8-470a-89b4-5ff17d6763d6 25dc8486e6494b1faa4d67d55613bcef b1b76b14f4824704bd65e7f8e8e37a5c - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=, binding:profile=, binding:vif_details=, binding:vif_type=unbound, binding:vnic_type=normal, created_at=2016-08-25T18:15:24, description=, device_id=5bfa5afb-52da-409d-84c4-06c4331f2d8d, device_owner=network:router_interface, dns_name=None, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'9b7e611a-5fd9-4620-b6b6-77eea27657d3', u'ip_address': u'10.2.10.1'}], id=2e88e15b-da49-494a-bfa3-b0ce9957c7aa, mac_address=fa:16:3e:f2:f0:e4, name=, network_id=31d51529-5a6e-4dab-9c4f-a144feb975d6, security_groups=[], status=DOWN, tenant_id=b1b76b14f4824704bd65e7f8e8e37a5c, updated_at=2016-08-25T18:15:24
+2016-08-25 16:05:29.596 8369 INFO neutron.agent.dhcp.agent [req-d4fef799-c903-4160-b3c7-23975370f287 a08de3c9ddbf47c7860d98fd5c9125a1 06b257fbe66b4f02b1de8e7e47c65878 - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=stack4.orbit8.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=True, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2016-08-25T20:05:28, description=, device_id=afdda90d-1e76-476e-ae69-0d3f964a0542, device_owner=compute:nova, dns_name=None, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'9b7e611a-5fd9-4620-b6b6-77eea27657d3', u'ip_address': u'10.2.10.103'}], id=d3d97b98-639a-4430-8cb8-05237512bae4, mac_address=fa:16:3e:69:48:dc, name=, network_id=31d51529-5a6e-4dab-9c4f-a144feb975d6, security_groups=[u'e6909f55-c51a-486e-9cf1-e9032bd00a03'], status=DOWN, tenant_id=b1b76b14f4824704bd65e7f8e8e37a5c, updated_at=2016-08-25T20:05:28
+2016-08-26 12:10:43.827 8369 INFO oslo_rootwrap.client [req-49e30640-dcc5-4716-8823-6c6f06524968 - - - - -] Stopping rootwrap daemon process with pid=8594
+2016-08-26 12:10:45.766 6419 INFO neutron.common.config [-] Logging enabled!
+2016-08-26 12:10:45.766 6419 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 8.1.2
+2016-08-26 12:10:45.808 6419 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2016-08-26 12:10:50.863 6419 INFO neutron.agent.dhcp.agent [-] All active networks have been fetched through RPC.
+2016-08-26 12:10:50.864 6419 INFO neutron.agent.dhcp.agent [-] Starting network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-26 12:10:50.864 6419 INFO neutron.agent.dhcp.agent [-] Finished network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-26 12:10:50.864 6419 INFO neutron.agent.dhcp.agent [-] Starting network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-26 12:10:50.865 6419 INFO neutron.agent.dhcp.agent [-] Finished network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-26 12:10:50.866 6419 INFO neutron.agent.dhcp.agent [-] Starting network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-26 12:10:50.866 6419 INFO neutron.agent.dhcp.agent [-] Finished network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-26 12:10:50.866 6419 INFO neutron.agent.dhcp.agent [-] Starting network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-26 12:10:51.043 6419 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=6626
+2016-08-26 12:10:51.081 6419 INFO neutron.agent.dhcp.agent [-] Finished network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-26 12:10:51.081 6419 INFO neutron.agent.dhcp.agent [-] Synchronizing state complete
+2016-08-26 12:10:51.098 6419 INFO neutron.agent.dhcp.agent [req-09f840a6-98db-48c0-b347-586f2f8bb24b - - - - -] Synchronizing state
+2016-08-26 12:10:51.134 6419 INFO neutron.agent.dhcp.agent [-] DHCP agent started
+2016-08-26 12:10:51.313 6419 INFO neutron.agent.dhcp.agent [req-09f840a6-98db-48c0-b347-586f2f8bb24b - - - - -] All active networks have been fetched through RPC.
+2016-08-26 12:10:51.313 6419 INFO neutron.agent.dhcp.agent [-] Starting network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-26 12:10:51.314 6419 INFO neutron.agent.dhcp.agent [-] Finished network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-26 12:10:51.314 6419 INFO neutron.agent.dhcp.agent [-] Starting network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-26 12:10:51.314 6419 INFO neutron.agent.dhcp.agent [-] Finished network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-26 12:10:51.315 6419 INFO neutron.agent.dhcp.agent [-] Starting network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-26 12:10:51.315 6419 INFO neutron.agent.dhcp.agent [-] Finished network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-26 12:10:51.315 6419 INFO neutron.agent.dhcp.agent [-] Starting network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-26 12:10:51.351 6419 INFO neutron.agent.dhcp.agent [-] Finished network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-26 12:10:51.351 6419 INFO neutron.agent.dhcp.agent [req-09f840a6-98db-48c0-b347-586f2f8bb24b - - - - -] Synchronizing state complete
+2016-08-27 08:36:15.083 6419 INFO oslo_rootwrap.client [req-f7a260f2-85c2-4181-bbd9-635b01fb6fd2 - - - - -] Stopping rootwrap daemon process with pid=6626
+2016-08-27 08:41:34.428 2733 INFO neutron.common.config [-] Logging enabled!
+2016-08-27 08:41:34.430 2733 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 8.1.2
+2016-08-27 08:41:34.476 2733 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2016-08-27 08:42:34.590 2733 ERROR neutron.common.rpc [-] Timeout in RPC method get_active_networks_info. Waiting for 41 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2016-08-27 08:42:34.591 2733 WARNING neutron.common.rpc [-] Increasing timeout for get_active_networks_info calls to 120 seconds. Restart the agent to restore it to the default value.
+2016-08-27 08:42:34.591 2733 ERROR neutron.common.rpc [req-b94dc589-7f18-469c-b0d7-bef5fccb113f - - - - -] Timeout in RPC method report_state. Waiting for 39 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2016-08-27 08:42:34.591 2733 WARNING neutron.common.rpc [req-b94dc589-7f18-469c-b0d7-bef5fccb113f - - - - -] Increasing timeout for report_state calls to 120 seconds. Restart the agent to restore it to the default value.
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent [req-b94dc589-7f18-469c-b0d7-bef5fccb113f - - - - -] Failed reporting state!
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 583, in _report_state
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     ctx, self.agent_state, True)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 86, in report_state
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     return method(context, 'report_state', **kwargs)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/common/rpc.py", line 155, in call
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     time.sleep(wait)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_utils/excutils.py", line 220, in __exit__
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     self.force_reraise()
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_utils/excutils.py", line 196, in force_reraise
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     six.reraise(self.type_, self.value, self.tb)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/common/rpc.py", line 136, in call
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     return self._original_context.call(ctxt, method, **kwargs)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 158, in call
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     retry=self.retry)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 90, in _send
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     timeout=timeout, retry=retry)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 470, in send
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     retry=retry)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 459, in _send
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     result = self._waiter.wait(msg_id, timeout)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 342, in wait
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 244, in get
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent     'to message ID %s' % msg_id)
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent MessagingTimeout: Timed out waiting for a reply to message ID 8d0299169e78460abbf950d76690ec02
+2016-08-27 08:43:13.484 2733 ERROR neutron.agent.dhcp.agent 
+2016-08-27 08:43:13.486 2733 WARNING oslo.service.loopingcall [req-b94dc589-7f18-469c-b0d7-bef5fccb113f - - - - -] Function 'neutron.agent.dhcp.agent.DhcpAgentWithStateReport._report_state' run outlasted interval by 69.02 sec
+2016-08-27 08:43:14.591 2733 INFO neutron.agent.dhcp.agent [req-de89efb7-b3e5-445d-93ee-cf3422eb5890 - - - - -] Agent has just been revived. Scheduling full sync
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent [-] Unable to sync network state.
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 154, in sync_state
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     active_networks = self.plugin_rpc.get_active_networks_info()
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 440, in get_active_networks_info
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     host=self.host)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/common/rpc.py", line 155, in call
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     time.sleep(wait)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_utils/excutils.py", line 220, in __exit__
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     self.force_reraise()
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_utils/excutils.py", line 196, in force_reraise
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     six.reraise(self.type_, self.value, self.tb)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/common/rpc.py", line 136, in call
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     return self._original_context.call(ctxt, method, **kwargs)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 158, in call
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     retry=self.retry)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 90, in _send
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     timeout=timeout, retry=retry)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 470, in send
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     retry=retry)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 459, in _send
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     result = self._waiter.wait(msg_id, timeout)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 342, in wait
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 244, in get
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent     'to message ID %s' % msg_id)
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent MessagingTimeout: Timed out waiting for a reply to message ID 9a97c4e42a354aef89251b64b2e81981
+2016-08-27 08:43:16.009 2733 ERROR neutron.agent.dhcp.agent 
+2016-08-27 08:43:16.026 2733 INFO neutron.agent.dhcp.agent [req-de89efb7-b3e5-445d-93ee-cf3422eb5890 - - - - -] Synchronizing state
+2016-08-27 08:43:16.065 2733 INFO neutron.agent.dhcp.agent [-] DHCP agent started
+2016-08-27 08:43:16.255 2733 INFO neutron.agent.dhcp.agent [req-de89efb7-b3e5-445d-93ee-cf3422eb5890 - - - - -] All active networks have been fetched through RPC.
+2016-08-27 08:43:16.255 2733 INFO neutron.agent.dhcp.agent [-] Starting network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-27 08:43:16.266 2733 INFO neutron.agent.dhcp.agent [-] Starting network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-27 08:43:16.266 2733 INFO neutron.agent.dhcp.agent [-] Finished network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-27 08:43:16.267 2733 INFO neutron.agent.dhcp.agent [-] Starting network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-27 08:43:16.267 2733 INFO neutron.agent.dhcp.agent [-] Finished network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-27 08:43:16.267 2733 INFO neutron.agent.dhcp.agent [-] Starting network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-27 08:43:16.268 2733 INFO neutron.agent.dhcp.agent [-] Finished network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-27 08:43:16.354 2733 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=8551
+2016-08-27 08:43:16.499 2733 INFO neutron.agent.dhcp.agent [-] Finished network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-27 08:43:16.500 2733 INFO neutron.agent.dhcp.agent [req-de89efb7-b3e5-445d-93ee-cf3422eb5890 - - - - -] Synchronizing state complete
+2016-08-27 08:43:46.500 2733 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2016-08-27 08:43:46.725 2733 INFO neutron.agent.dhcp.agent [-] All active networks have been fetched through RPC.
+2016-08-27 08:43:46.725 2733 INFO neutron.agent.dhcp.agent [-] Starting network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-27 08:43:46.726 2733 INFO neutron.agent.dhcp.agent [-] Starting network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-27 08:43:46.727 2733 INFO neutron.agent.dhcp.agent [-] Finished network 7acf37fc-9e38-4e80-a508-8207cec0eb64 dhcp configuration
+2016-08-27 08:43:46.727 2733 INFO neutron.agent.dhcp.agent [-] Starting network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-27 08:43:46.727 2733 INFO neutron.agent.dhcp.agent [-] Finished network 80e6660c-22db-4fc9-9765-9792306e7b7e dhcp configuration
+2016-08-27 08:43:46.728 2733 INFO neutron.agent.dhcp.agent [-] Starting network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-27 08:43:46.728 2733 INFO neutron.agent.dhcp.agent [-] Finished network 7dd8e5da-3715-41da-ae7d-13d47e199af1 dhcp configuration
+2016-08-27 08:43:46.763 2733 INFO neutron.agent.dhcp.agent [-] Finished network 31d51529-5a6e-4dab-9c4f-a144feb975d6 dhcp configuration
+2016-08-27 08:43:46.764 2733 INFO neutron.agent.dhcp.agent [-] Synchronizing state complete

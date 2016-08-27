@@ -6,7 +6,7 @@ ONBOOT=yes
 HWADDR=18:03:73:EF:2E:27
 MTU=9000
 NM_CONTROLLED=no
-OVS_BRIDGE=br10
+OVS_BRIDGE=br-int
 DEVICETYPE=ovs
 TYPE=OVSPort
 OVS_EXTRA="set Interface $DEVICE external-ids:iface-id=$(hostname -s)-$DEVICE-vif -- set port $DEVICE tag=10"

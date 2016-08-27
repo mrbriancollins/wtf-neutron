@@ -124,3 +124,39 @@
 2016-08-25 11:46:27.898 2359 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
 2016-08-25 11:46:27.910 2359 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
 2016-08-25 11:46:27.912 2359 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=3636
+2016-08-27 08:36:04.889 4027 INFO neutron.common.config [-] Logging enabled!
+2016-08-27 08:36:04.890 4027 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-27 08:36:04.890 4027 DEBUG neutron.common.config [-] command line: /usr/bin/neutron-ovs-cleanup --config-file /usr/share/neutron/neutron-dist.conf --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/openvswitch_agent.ini --config-dir /etc/neutron/conf.d/common --config-dir /etc/neutron/conf.d/neutron-ovs-cleanup --log-file /var/log/neutron/ovs-cleanup.log setup_logging /usr/lib/python2.7/site-packages/neutron/common/config.py:272
+2016-08-27 08:36:04.891 4027 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', 'list-br'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:36:04.894 4027 DEBUG oslo_rootwrap.client [-] Popen for ['sudo', 'neutron-rootwrap-daemon', '/etc/neutron/rootwrap.conf'] command has been instantiated _initialize /usr/lib/python2.7/site-packages/oslo_rootwrap/client.py:67
+2016-08-27 08:36:04.960 4027 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=4040
+2016-08-27 08:36:04.972 4027 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:36:04.974 4027 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', 'list-ports', 'br-int'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:36:04.979 4027 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:36:04.980 4027 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', '--if-exists', '--columns=name,external_ids,ofport', 'list', 'Interface', 'patch-tun'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:36:04.985 4027 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:36:04.985 4027 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-27 08:36:04.985 4027 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', 'list-ports', 'br-int'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:36:04.991 4027 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:36:04.991 4027 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', '--if-exists', '--columns=name,external_ids,ofport', 'list', 'Interface', 'patch-tun'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:36:04.996 4027 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:36:04.996 4027 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-27 08:36:04.998 4027 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=4040
+2016-08-27 08:39:08.172 1770 INFO neutron.common.config [-] Logging enabled!
+2016-08-27 08:39:08.173 1770 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 8.1.2
+2016-08-27 08:39:08.173 1770 DEBUG neutron.common.config [-] command line: /usr/bin/neutron-ovs-cleanup --config-file /usr/share/neutron/neutron-dist.conf --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/openvswitch_agent.ini --config-dir /etc/neutron/conf.d/common --config-dir /etc/neutron/conf.d/neutron-ovs-cleanup --log-file /var/log/neutron/ovs-cleanup.log setup_logging /usr/lib/python2.7/site-packages/neutron/common/config.py:272
+2016-08-27 08:39:08.175 1770 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', 'list-br'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:39:08.180 1770 DEBUG oslo_rootwrap.client [-] Popen for ['sudo', 'neutron-rootwrap-daemon', '/etc/neutron/rootwrap.conf'] command has been instantiated _initialize /usr/lib/python2.7/site-packages/oslo_rootwrap/client.py:67
+2016-08-27 08:39:08.253 1770 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=2997
+2016-08-27 08:39:08.264 1770 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:39:08.266 1770 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', 'list-ports', 'br-int'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:39:08.272 1770 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:39:08.272 1770 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', '--if-exists', '--columns=name,external_ids,ofport', 'list', 'Interface', 'em3', 'em3.15', 'patch-tun'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:39:08.278 1770 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:39:08.278 1770 INFO neutron.cmd.ovs_cleanup [-] Cleaning bridge: br-int
+2016-08-27 08:39:08.278 1770 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', 'list-ports', 'br-int'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:39:08.284 1770 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:39:08.284 1770 DEBUG neutron.agent.linux.utils [-] Running command (rootwrap daemon): ['ovs-vsctl', '--timeout=10', '--oneline', '--format=json', '--', '--if-exists', '--columns=name,external_ids,ofport', 'list', 'Interface', 'em3', 'em3.15', 'patch-tun'] execute_rootwrap_daemon /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:100
+2016-08-27 08:39:08.289 1770 DEBUG neutron.agent.linux.utils [-] Exit code: 0 execute /usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py:142
+2016-08-27 08:39:08.290 1770 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully
+2016-08-27 08:39:08.291 1770 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=2997

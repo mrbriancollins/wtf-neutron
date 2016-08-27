@@ -6,7 +6,7 @@ MTU=9000
 NM_CONTROLLED=no
 MACADDR=18:03:73:EF:74:45
 VLAN=yes
-OVS_BRIDGE=br15
+OVS_BRIDGE=br-int
 DEVICETYPE=ovs
 TYPE=OVSPort
 OVS_EXTRA="set Interface $DEVICE external-ids:iface-id=$(hostname -s)-$DEVICE-vif -- set port $DEVICE tag=15"

@@ -1,3 +1,15 @@
 2016-08-25 13:45:06.956 8370 INFO neutron.common.config [-] Logging enabled!
 2016-08-25 13:45:06.956 8370 INFO neutron.common.config [-] /usr/bin/neutron-lbaas-agent version 8.1.2
 2016-08-25 13:45:06.959 8370 WARNING neutron.services.provider_configuration [req-0fc822ef-42a2-43d5-82a4-906ad8ead6d9 - - - - -] The configured driver neutron.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver has been moved, automatically using neutron_lbaas.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver instead. Please update your config files, as this automatic fixup will be removed in a future release.
+2016-08-26 12:10:45.243 6391 INFO neutron.common.config [-] Logging enabled!
+2016-08-26 12:10:45.243 6391 INFO neutron.common.config [-] /usr/bin/neutron-lbaas-agent version 8.1.2
+2016-08-26 12:10:45.246 6391 WARNING neutron.services.provider_configuration [req-51c81454-5e7a-422b-9044-da8b960f7744 - - - - -] The configured driver neutron.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver has been moved, automatically using neutron_lbaas.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver instead. Please update your config files, as this automatic fixup will be removed in a future release.
+2016-08-27 08:41:31.388 2205 INFO neutron.common.config [-] Logging enabled!
+2016-08-27 08:41:31.407 2205 INFO neutron.common.config [-] /usr/bin/neutron-lbaas-agent version 8.1.2
+2016-08-27 08:41:31.412 2205 WARNING neutron.services.provider_configuration [req-5bc6a0c8-9bf0-4f62-9c2b-b882a0d441b1 - - - - -] The configured driver neutron.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver has been moved, automatically using neutron_lbaas.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver instead. Please update your config files, as this automatic fixup will be removed in a future release.
+2016-08-27 08:41:31.593 2205 ERROR oslo.messaging._drivers.impl_rabbit [-] AMQP server on 10.1.13.251:5671 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds.
+2016-08-27 08:41:31.613 2205 ERROR oslo.messaging._drivers.impl_rabbit [-] AMQP server on 10.1.13.251:5671 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds.
+2016-08-27 08:41:32.639 2205 ERROR oslo.messaging._drivers.impl_rabbit [-] AMQP server on 10.1.13.251:5671 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds.
+2016-08-27 08:41:32.673 2205 ERROR oslo.messaging._drivers.impl_rabbit [-] AMQP server on 10.1.13.251:5671 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds.
+2016-08-27 08:41:34.703 2205 INFO oslo.messaging._drivers.impl_rabbit [-] Reconnected to AMQP server on 10.1.13.251:5671 via [amqp] client
+2016-08-27 08:41:34.743 2205 INFO oslo.messaging._drivers.impl_rabbit [-] Reconnected to AMQP server on 10.1.13.251:5671 via [amqp] client

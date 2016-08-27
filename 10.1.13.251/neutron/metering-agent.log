@@ -1,3 +1,46 @@
 2016-08-25 13:45:06.955 8372 INFO neutron.common.config [-] Logging enabled!
 2016-08-25 13:45:06.956 8372 INFO neutron.common.config [-] /usr/bin/neutron-metering-agent version 8.1.2
 2016-08-25 13:45:06.956 8372 INFO neutron.services.metering.agents.metering_agent [-] Loading Metering driver neutron.services.metering.drivers.noop.noop_driver.NoopMeteringDriver
+2016-08-26 12:10:45.069 6380 INFO neutron.common.config [-] Logging enabled!
+2016-08-26 12:10:45.069 6380 INFO neutron.common.config [-] /usr/bin/neutron-metering-agent version 8.1.2
+2016-08-26 12:10:45.070 6380 INFO neutron.services.metering.agents.metering_agent [-] Loading Metering driver neutron.services.metering.drivers.noop.noop_driver.NoopMeteringDriver
+2016-08-27 08:41:30.133 2210 INFO neutron.common.config [-] Logging enabled!
+2016-08-27 08:41:30.137 2210 INFO neutron.common.config [-] /usr/bin/neutron-metering-agent version 8.1.2
+2016-08-27 08:41:30.138 2210 INFO neutron.services.metering.agents.metering_agent [-] Loading Metering driver neutron.services.metering.drivers.noop.noop_driver.NoopMeteringDriver
+2016-08-27 08:41:30.276 2210 ERROR oslo.messaging._drivers.impl_rabbit [-] AMQP server on 10.1.13.251:5671 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds.
+2016-08-27 08:41:30.277 2210 ERROR oslo.messaging._drivers.impl_rabbit [-] AMQP server on 10.1.13.251:5671 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds.
+2016-08-27 08:41:31.292 2210 ERROR oslo.messaging._drivers.impl_rabbit [-] AMQP server on 10.1.13.251:5671 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds.
+2016-08-27 08:41:31.352 2210 ERROR oslo.messaging._drivers.impl_rabbit [-] AMQP server on 10.1.13.251:5671 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds.
+2016-08-27 08:41:33.786 2210 INFO oslo.messaging._drivers.impl_rabbit [-] Reconnected to AMQP server on 10.1.13.251:5671 via [amqp] client
+2016-08-27 08:41:33.893 2210 INFO oslo.messaging._drivers.impl_rabbit [-] Reconnected to AMQP server on 10.1.13.251:5671 via [amqp] client
+2016-08-27 08:42:33.978 2210 ERROR neutron.common.rpc [-] Timeout in RPC method report_state. Waiting for 52 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2016-08-27 08:42:33.978 2210 WARNING neutron.common.rpc [-] Increasing timeout for report_state calls to 120 seconds. Restart the agent to restore it to the default value.
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent [-] Failed reporting state!
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent Traceback (most recent call last):
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/neutron/services/metering/agents/metering_agent.py", line 274, in _report_state
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     self.use_call)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 86, in report_state
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     return method(context, 'report_state', **kwargs)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/neutron/common/rpc.py", line 155, in call
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     time.sleep(wait)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/oslo_utils/excutils.py", line 220, in __exit__
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     self.force_reraise()
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/oslo_utils/excutils.py", line 196, in force_reraise
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     six.reraise(self.type_, self.value, self.tb)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/neutron/common/rpc.py", line 136, in call
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     return self._original_context.call(ctxt, method, **kwargs)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 158, in call
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     retry=self.retry)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 90, in _send
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     timeout=timeout, retry=retry)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 470, in send
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     retry=retry)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 459, in _send
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     result = self._waiter.wait(msg_id, timeout)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 342, in wait
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     message = self.waiters.get(msg_id, timeout=timeout)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 244, in get
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent     'to message ID %s' % msg_id)
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent MessagingTimeout: Timed out waiting for a reply to message ID c6f5cced90e34ad08f6f9bce818e93b5
+2016-08-27 08:43:26.133 2210 ERROR neutron.services.metering.agents.metering_agent 
+2016-08-27 08:43:26.135 2210 WARNING oslo.service.loopingcall [-] Function 'neutron.services.metering.agents.metering_agent.MeteringAgentWithStateReport._report_state' run outlasted interval by 85.96 sec
