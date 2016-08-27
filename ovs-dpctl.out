@@ -1,81 +1,63 @@
 10.1.13.11
 system@ovs-system:
-	lookups: hit:2330 missed:462 lost:0
-	flows: 2
-	masks: hit:5420 total:2 hit/pkt:1.94
+	lookups: hit:36460 missed:8409 lost:0
+	flows: 3
+	masks: hit:86054 total:2 hit/pkt:1.92
 	port 0: ovs-system (internal)
-	port 1: br15 (internal)
-	port 2: br-int (internal)
-	port 3: vxlan_sys_4789 (vxlan)
-	port 4: gre_sys (gre)
-	port 5: br-tun (internal)
-	port 6: br10 (internal)
-	port 7: em3
-	port 8: br999 (internal)
-	port 9: em3.15
-	port 10: em3.999
-10.1.13.12
-system@ovs-system:
-	lookups: hit:2070 missed:403 lost:0
-	flows: 2
-	masks: hit:4757 total:2 hit/pkt:1.92
-	port 0: ovs-system (internal)
-	port 1: br15 (internal)
+	port 1: br-int (internal)
 	port 2: vxlan_sys_4789 (vxlan)
 	port 3: gre_sys (gre)
 	port 4: br-tun (internal)
-	port 5: br-int (internal)
-	port 6: br10 (internal)
-	port 7: em3
-	port 8: br999 (internal)
-	port 9: em3.15
-	port 10: em3.999
+	port 5: em3
+	port 6: em3.15
+10.1.13.12
+system@ovs-system:
+	lookups: hit:36439 missed:8427 lost:0
+	flows: 3
+	masks: hit:86096 total:2 hit/pkt:1.92
+	port 0: ovs-system (internal)
+	port 1: vxlan_sys_4789 (vxlan)
+	port 2: gre_sys (gre)
+	port 3: br-tun (internal)
+	port 4: br-int (internal)
+	port 5: em3
+	port 6: em3.15
 10.1.13.13
 system@ovs-system:
-	lookups: hit:2181 missed:435 lost:0
+	lookups: hit:36409 missed:8457 lost:0
 	flows: 3
-	masks: hit:5017 total:2 hit/pkt:1.92
+	masks: hit:86167 total:2 hit/pkt:1.92
 	port 0: ovs-system (internal)
-	port 1: br15 (internal)
-	port 2: gre_sys (gre)
-	port 3: vxlan_sys_4789 (vxlan)
-	port 4: br-tun (internal)
-	port 5: br-int (internal)
-	port 6: br10 (internal)
-	port 7: em3
-	port 8: br999 (internal)
-	port 9: em3.15
-	port 10: em3.999
-10.1.13.14
-system@ovs-system:
-	lookups: hit:2110 missed:409 lost:0
-	flows: 4
-	masks: hit:5281 total:4 hit/pkt:2.10
-	port 0: ovs-system (internal)
-	port 1: br15 (internal)
+	port 1: gre_sys (gre)
 	port 2: vxlan_sys_4789 (vxlan)
 	port 3: br-tun (internal)
-	port 4: gre_sys (gre)
-	port 5: br-int (internal)
-	port 6: br10 (internal)
-	port 7: em3
-	port 8: br999 (internal)
-	port 9: em3.15
-	port 10: em3.999
+	port 4: br-int (internal)
+	port 5: em3
+	port 6: em3.15
+10.1.13.14
+system@ovs-system:
+	lookups: hit:36447 missed:8421 lost:0
+	flows: 3
+	masks: hit:86060 total:2 hit/pkt:1.92
+	port 0: ovs-system (internal)
+	port 1: vxlan_sys_4789 (vxlan)
+	port 2: br-tun (internal)
+	port 3: gre_sys (gre)
+	port 4: br-int (internal)
+	port 5: em3
+	port 6: em3.15
 10.1.13.251
 system@ovs-system:
-	lookups: hit:1371 missed:426 lost:0
-	flows: 3
-	masks: hit:3435 total:3 hit/pkt:1.91
+	lookups: hit:19982 missed:6835 lost:0
+	flows: 2
+	masks: hit:36551 total:1 hit/pkt:1.36
 	port 0: ovs-system (internal)
-	port 1: br15 (internal)
-	port 2: br-ex (internal)
-	port 3: vxlan_sys_4789 (vxlan)
-	port 4: br-tun (internal)
-	port 5: gre_sys (gre)
-	port 6: br-int (internal)
-	port 7: br10 (internal)
-	port 8: br999 (internal)
-	port 9: em1.10
-	port 10: em1.15
-	port 11: em1.999
+	port 1: vxlan_sys_4789 (vxlan)
+	port 2: br-tun (internal)
+	port 3: gre_sys (gre)
+	port 4: br-int (internal)
+	port 5: br-ex (internal)
+	port 6: em1.10
+	port 7: em1.15
+	port 8: qg-91f41301-1b (internal)
+	port 9: qg-7c2adea7-2e (internal)
