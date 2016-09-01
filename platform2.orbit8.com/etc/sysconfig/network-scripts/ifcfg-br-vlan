@@ -1,0 +1,8 @@
+ONBOOT=yes
+OVS_BRIDGE=br-vlan
+MTU=9000
+DEVICE=br-vlan
+NAME=br-vlan
+DEVICETYPE=ovs
+OVSBOOTPROTO=
+TYPE=OVSBridge

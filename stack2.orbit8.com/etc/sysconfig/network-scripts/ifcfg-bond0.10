@@ -1,0 +1,8 @@
+DEVICE=bond0.10
+ONBOOT=yes
+BOOTPROTO=none
+TYPE=Vlan
+VLAN=yes
+DEFROUTE=no
+PEERDNS=no
+MACADDR=14:fe:b5:d4:97:37

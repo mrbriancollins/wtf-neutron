@@ -1,0 +1,7 @@
+DEVICE=bond0.999
+ONBOOT=yes
+BOOTPROTO=none
+TYPE=OVSPort
+VLAN=yes
+OVS_BRIDGE=br-ex
+MACADDR=14:fe:b5:db:79:76
