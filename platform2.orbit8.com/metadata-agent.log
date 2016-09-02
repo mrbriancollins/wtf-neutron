@@ -1,0 +1,231 @@
+2016-09-01 23:42:51.575 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Caught SIGTERM, stopping children
+2016-09-01 23:42:51.576 16577 INFO eventlet.wsgi.server [-] (16577) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.576 16584 INFO eventlet.wsgi.server [-] (16584) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.576 16579 INFO eventlet.wsgi.server [-] (16579) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.576 16581 INFO eventlet.wsgi.server [-] (16581) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.577 16582 INFO eventlet.wsgi.server [-] (16582) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.577 16583 INFO eventlet.wsgi.server [-] (16583) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.576 16580 INFO eventlet.wsgi.server [-] (16580) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.576 16578 INFO eventlet.wsgi.server [-] (16578) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.582 16586 INFO eventlet.wsgi.server [-] (16586) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.586 16585 INFO eventlet.wsgi.server [-] (16585) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.587 16587 INFO eventlet.wsgi.server [-] (16587) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.592 16588 INFO eventlet.wsgi.server [-] (16588) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.592 16589 INFO eventlet.wsgi.server [-] (16589) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.598 16590 INFO eventlet.wsgi.server [-] (16590) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.602 16594 INFO eventlet.wsgi.server [-] (16594) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.603 16591 INFO eventlet.wsgi.server [-] (16591) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.603 16593 INFO eventlet.wsgi.server [-] (16593) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.607 16595 INFO eventlet.wsgi.server [-] (16595) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.608 16592 INFO eventlet.wsgi.server [-] (16592) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.612 16599 INFO eventlet.wsgi.server [-] (16599) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.612 16596 INFO eventlet.wsgi.server [-] (16596) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.612 16598 INFO eventlet.wsgi.server [-] (16598) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.612 16600 INFO eventlet.wsgi.server [-] (16600) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.612 16597 INFO eventlet.wsgi.server [-] (16597) wsgi exited, is_accepting=True
+2016-09-01 23:42:51.621 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Waiting on 24 children to exit
+2016-09-01 23:42:51.622 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16577 exited with status 0
+2016-09-01 23:42:51.622 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16578 exited with status 0
+2016-09-01 23:42:51.623 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16579 exited with status 0
+2016-09-01 23:42:51.623 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16580 exited with status 0
+2016-09-01 23:42:51.623 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16581 exited with status 0
+2016-09-01 23:42:51.624 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16582 exited with status 0
+2016-09-01 23:42:51.624 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16583 exited with status 0
+2016-09-01 23:42:51.624 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16584 exited with status 0
+2016-09-01 23:42:51.625 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16585 exited with status 0
+2016-09-01 23:42:51.625 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16586 exited with status 0
+2016-09-01 23:42:51.625 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16587 exited with status 0
+2016-09-01 23:42:51.626 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16588 exited with status 0
+2016-09-01 23:42:51.626 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16589 exited with status 0
+2016-09-01 23:42:51.626 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16590 exited with status 0
+2016-09-01 23:42:51.627 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16591 exited with status 0
+2016-09-01 23:42:51.627 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16592 exited with status 0
+2016-09-01 23:42:51.627 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16593 exited with status 0
+2016-09-01 23:42:51.628 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16594 exited with status 0
+2016-09-01 23:42:51.628 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16595 exited with status 0
+2016-09-01 23:42:51.628 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16596 exited with status 0
+2016-09-01 23:42:51.629 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16597 exited with status 0
+2016-09-01 23:42:51.629 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16598 exited with status 0
+2016-09-01 23:42:51.629 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16599 exited with status 0
+2016-09-01 23:42:51.630 16524 INFO oslo_service.service [req-ddf14b38-bf53-4ae1-b8bd-18db83dff1f1 - - - - -] Child 16600 exited with status 0
+2016-09-01 23:42:54.913 30484 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:42:54.913 30484 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 8.1.2
+2016-09-01 23:42:54.937 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Starting 24 workers
+2016-09-01 23:42:54.945 30759 INFO eventlet.wsgi.server [-] (30759) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.947 30760 INFO eventlet.wsgi.server [-] (30760) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.948 30762 INFO eventlet.wsgi.server [-] (30762) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.953 30764 INFO eventlet.wsgi.server [-] (30764) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.955 30765 INFO eventlet.wsgi.server [-] (30765) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.959 30767 INFO eventlet.wsgi.server [-] (30767) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.960 30768 INFO eventlet.wsgi.server [-] (30768) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.966 30771 INFO eventlet.wsgi.server [-] (30771) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.966 30763 INFO eventlet.wsgi.server [-] (30763) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.971 30773 INFO eventlet.wsgi.server [-] (30773) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.973 30769 INFO eventlet.wsgi.server [-] (30769) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.977 30775 INFO eventlet.wsgi.server [-] (30775) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.979 30777 INFO eventlet.wsgi.server [-] (30777) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.979 30779 INFO eventlet.wsgi.server [-] (30779) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.984 30780 INFO eventlet.wsgi.server [-] (30780) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.985 30782 INFO eventlet.wsgi.server [-] (30782) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.987 30784 INFO eventlet.wsgi.server [-] (30784) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.991 30785 INFO eventlet.wsgi.server [-] (30785) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.993 30786 INFO eventlet.wsgi.server [-] (30786) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.997 30787 INFO eventlet.wsgi.server [-] (30787) wsgi starting up on http:///:v/
+2016-09-01 23:42:54.999 30788 INFO eventlet.wsgi.server [-] (30788) wsgi starting up on http:///:v/
+2016-09-01 23:42:55.002 30789 INFO eventlet.wsgi.server [-] (30789) wsgi starting up on http:///:v/
+2016-09-01 23:42:55.006 30790 INFO eventlet.wsgi.server [-] (30790) wsgi starting up on http:///:v/
+2016-09-01 23:42:55.007 30791 INFO eventlet.wsgi.server [-] (30791) wsgi starting up on http:///:v/
+2016-09-01 23:43:14.037 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Caught SIGTERM, stopping children
+2016-09-01 23:43:14.038 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Waiting on 24 children to exit
+2016-09-01 23:43:14.038 30773 INFO eventlet.wsgi.server [-] (30773) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.038 30760 INFO eventlet.wsgi.server [-] (30760) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.038 30763 INFO eventlet.wsgi.server [-] (30763) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.039 30768 INFO eventlet.wsgi.server [-] (30768) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.039 30764 INFO eventlet.wsgi.server [-] (30764) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.039 30788 INFO eventlet.wsgi.server [-] (30788) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.039 30791 INFO eventlet.wsgi.server [-] (30791) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.039 30789 INFO eventlet.wsgi.server [-] (30789) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.040 30771 INFO eventlet.wsgi.server [-] (30771) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.040 30784 INFO eventlet.wsgi.server [-] (30784) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.040 30780 INFO eventlet.wsgi.server [-] (30780) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.040 30786 INFO eventlet.wsgi.server [-] (30786) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.042 30775 INFO eventlet.wsgi.server [-] (30775) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.043 30769 INFO eventlet.wsgi.server [-] (30769) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.043 30762 INFO eventlet.wsgi.server [-] (30762) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.043 30787 INFO eventlet.wsgi.server [-] (30787) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.044 30765 INFO eventlet.wsgi.server [-] (30765) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.043 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30768 exited with status 0
+2016-09-01 23:43:14.044 30759 INFO eventlet.wsgi.server [-] (30759) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.044 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30780 exited with status 0
+2016-09-01 23:43:14.044 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30786 exited with status 0
+2016-09-01 23:43:14.045 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30789 exited with status 0
+2016-09-01 23:43:14.046 30790 INFO eventlet.wsgi.server [-] (30790) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.046 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30775 exited with status 0
+2016-09-01 23:43:14.046 30777 INFO eventlet.wsgi.server [-] (30777) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.046 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30769 exited with status 0
+2016-09-01 23:43:14.046 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30760 exited with status 0
+2016-09-01 23:43:14.047 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30773 exited with status 0
+2016-09-01 23:43:14.047 30779 INFO eventlet.wsgi.server [-] (30779) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.047 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30764 exited with status 0
+2016-09-01 23:43:14.048 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30765 exited with status 0
+2016-09-01 23:43:14.048 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30762 exited with status 0
+2016-09-01 23:43:14.048 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30771 exited with status 0
+2016-09-01 23:43:14.049 30782 INFO eventlet.wsgi.server [-] (30782) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.049 30785 INFO eventlet.wsgi.server [-] (30785) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.052 30767 INFO eventlet.wsgi.server [-] (30767) wsgi exited, is_accepting=True
+2016-09-01 23:43:14.052 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30759 exited with status 0
+2016-09-01 23:43:14.053 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30784 exited with status 0
+2016-09-01 23:43:14.055 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30787 exited with status 0
+2016-09-01 23:43:14.068 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30763 exited with status 0
+2016-09-01 23:43:14.069 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30767 exited with status 0
+2016-09-01 23:43:14.069 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30779 exited with status 0
+2016-09-01 23:43:14.070 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30782 exited with status 0
+2016-09-01 23:43:14.070 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30788 exited with status 0
+2016-09-01 23:43:14.071 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30790 exited with status 0
+2016-09-01 23:43:14.071 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30791 exited with status 0
+2016-09-01 23:43:14.072 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30785 exited with status 0
+2016-09-01 23:43:14.075 30484 INFO oslo_service.service [req-2e23d796-63d5-4df7-b971-4587d5fa0784 - - - - -] Child 30777 exited with status 0
+2016-09-01 23:43:17.611 31580 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:43:17.611 31580 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 8.1.2
+2016-09-01 23:43:17.634 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Starting 24 workers
+2016-09-01 23:43:17.653 31921 INFO eventlet.wsgi.server [-] (31921) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.656 31922 INFO eventlet.wsgi.server [-] (31922) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.658 31925 INFO eventlet.wsgi.server [-] (31925) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.662 31927 INFO eventlet.wsgi.server [-] (31927) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.663 31934 INFO eventlet.wsgi.server [-] (31934) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.666 31926 INFO eventlet.wsgi.server [-] (31926) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.666 31930 INFO eventlet.wsgi.server [-] (31930) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.667 31932 INFO eventlet.wsgi.server [-] (31932) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.676 31929 INFO eventlet.wsgi.server [-] (31929) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.668 31931 INFO eventlet.wsgi.server [-] (31931) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.683 31935 INFO eventlet.wsgi.server [-] (31935) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.683 31923 INFO eventlet.wsgi.server [-] (31923) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.688 31938 INFO eventlet.wsgi.server [-] (31938) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.697 31940 INFO eventlet.wsgi.server [-] (31940) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.698 31939 INFO eventlet.wsgi.server [-] (31939) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.698 31941 INFO eventlet.wsgi.server [-] (31941) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.705 31942 INFO eventlet.wsgi.server [-] (31942) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.705 31945 INFO eventlet.wsgi.server [-] (31945) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.707 31943 INFO eventlet.wsgi.server [-] (31943) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.715 31946 INFO eventlet.wsgi.server [-] (31946) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.720 31949 INFO eventlet.wsgi.server [-] (31949) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.724 31948 INFO eventlet.wsgi.server [-] (31948) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.715 31947 INFO eventlet.wsgi.server [-] (31947) wsgi starting up on http:///:v/
+2016-09-01 23:43:17.740 31950 INFO eventlet.wsgi.server [-] (31950) wsgi starting up on http:///:v/
+2016-09-02 00:26:04.695 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Caught SIGTERM, stopping children
+2016-09-02 00:26:04.696 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Waiting on 24 children to exit
+2016-09-02 00:26:04.696 31927 INFO eventlet.wsgi.server [-] (31927) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31930 INFO eventlet.wsgi.server [-] (31930) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31949 INFO eventlet.wsgi.server [-] (31949) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31943 INFO eventlet.wsgi.server [-] (31943) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31934 INFO eventlet.wsgi.server [-] (31934) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31948 INFO eventlet.wsgi.server [-] (31948) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31950 INFO eventlet.wsgi.server [-] (31950) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31945 INFO eventlet.wsgi.server [-] (31945) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31942 INFO eventlet.wsgi.server [-] (31942) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31935 INFO eventlet.wsgi.server [-] (31935) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31926 INFO eventlet.wsgi.server [-] (31926) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31941 INFO eventlet.wsgi.server [-] (31941) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31923 INFO eventlet.wsgi.server [-] (31923) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.696 31946 INFO eventlet.wsgi.server [-] (31946) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31921 INFO eventlet.wsgi.server [-] (31921) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31929 INFO eventlet.wsgi.server [-] (31929) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31931 INFO eventlet.wsgi.server [-] (31931) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31940 INFO eventlet.wsgi.server [-] (31940) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31947 INFO eventlet.wsgi.server [-] (31947) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31925 INFO eventlet.wsgi.server [-] (31925) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31932 INFO eventlet.wsgi.server [-] (31932) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31939 INFO eventlet.wsgi.server [-] (31939) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31922 INFO eventlet.wsgi.server [-] (31922) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.697 31938 INFO eventlet.wsgi.server [-] (31938) wsgi exited, is_accepting=True
+2016-09-02 00:26:04.699 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31949 exited with status 0
+2016-09-02 00:26:04.702 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31931 exited with status 0
+2016-09-02 00:26:04.702 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31930 exited with status 0
+2016-09-02 00:26:04.702 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31923 exited with status 0
+2016-09-02 00:26:04.703 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31929 exited with status 0
+2016-09-02 00:26:04.703 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31934 exited with status 0
+2016-09-02 00:26:04.704 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31921 exited with status 0
+2016-09-02 00:26:04.704 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31935 exited with status 0
+2016-09-02 00:26:04.705 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31938 exited with status 0
+2016-09-02 00:26:04.705 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31926 exited with status 0
+2016-09-02 00:26:04.705 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31940 exited with status 0
+2016-09-02 00:26:04.706 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31932 exited with status 0
+2016-09-02 00:26:04.706 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31939 exited with status 0
+2016-09-02 00:26:04.706 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31922 exited with status 0
+2016-09-02 00:26:04.707 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31925 exited with status 0
+2016-09-02 00:26:04.707 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31927 exited with status 0
+2016-09-02 00:26:04.707 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31941 exited with status 0
+2016-09-02 00:26:04.708 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31942 exited with status 0
+2016-09-02 00:26:04.708 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31943 exited with status 0
+2016-09-02 00:26:04.709 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31945 exited with status 0
+2016-09-02 00:26:04.709 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31946 exited with status 0
+2016-09-02 00:26:04.710 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31947 exited with status 0
+2016-09-02 00:26:04.710 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31948 exited with status 0
+2016-09-02 00:26:04.710 31580 INFO oslo_service.service [req-0c43afe7-3082-4ee3-b0db-93306f3478d3 - - - - -] Child 31950 exited with status 0
+2016-09-02 00:26:06.580 11159 INFO neutron.common.config [-] Logging enabled!
+2016-09-02 00:26:06.581 11159 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 8.1.2
+2016-09-02 00:26:06.592 11159 INFO oslo_service.service [req-932657d1-9e52-4396-a956-781a162f53a3 - - - - -] Starting 24 workers
+2016-09-02 00:26:06.596 11223 INFO eventlet.wsgi.server [-] (11223) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.597 11224 INFO eventlet.wsgi.server [-] (11224) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.598 11225 INFO eventlet.wsgi.server [-] (11225) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.599 11226 INFO eventlet.wsgi.server [-] (11226) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.600 11228 INFO eventlet.wsgi.server [-] (11228) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.601 11229 INFO eventlet.wsgi.server [-] (11229) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.602 11230 INFO eventlet.wsgi.server [-] (11230) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.603 11231 INFO eventlet.wsgi.server [-] (11231) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.604 11232 INFO eventlet.wsgi.server [-] (11232) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.605 11233 INFO eventlet.wsgi.server [-] (11233) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.606 11234 INFO eventlet.wsgi.server [-] (11234) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.607 11235 INFO eventlet.wsgi.server [-] (11235) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.608 11236 INFO eventlet.wsgi.server [-] (11236) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.609 11237 INFO eventlet.wsgi.server [-] (11237) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.610 11238 INFO eventlet.wsgi.server [-] (11238) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.612 11239 INFO eventlet.wsgi.server [-] (11239) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.613 11240 INFO eventlet.wsgi.server [-] (11240) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.614 11241 INFO eventlet.wsgi.server [-] (11241) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.615 11242 INFO eventlet.wsgi.server [-] (11242) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.616 11243 INFO eventlet.wsgi.server [-] (11243) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.617 11244 INFO eventlet.wsgi.server [-] (11244) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.618 11245 INFO eventlet.wsgi.server [-] (11245) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.619 11246 INFO eventlet.wsgi.server [-] (11246) wsgi starting up on http:///:v/
+2016-09-02 00:26:06.620 11247 INFO eventlet.wsgi.server [-] (11247) wsgi starting up on http:///:v/

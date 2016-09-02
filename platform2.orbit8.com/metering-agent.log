@@ -1,0 +1,9 @@
+2016-09-01 23:42:54.447 30452 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:42:54.448 30452 INFO neutron.common.config [-] /usr/bin/neutron-metering-agent version 8.1.2
+2016-09-01 23:42:54.448 30452 INFO neutron.services.metering.agents.metering_agent [-] Loading Metering driver neutron.services.metering.drivers.noop.noop_driver.NoopMeteringDriver
+2016-09-01 23:43:16.825 31523 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:43:16.826 31523 INFO neutron.common.config [-] /usr/bin/neutron-metering-agent version 8.1.2
+2016-09-01 23:43:16.826 31523 INFO neutron.services.metering.agents.metering_agent [-] Loading Metering driver neutron.services.metering.drivers.noop.noop_driver.NoopMeteringDriver
+2016-09-02 00:26:06.307 11154 INFO neutron.common.config [-] Logging enabled!
+2016-09-02 00:26:06.307 11154 INFO neutron.common.config [-] /usr/bin/neutron-metering-agent version 8.1.2
+2016-09-02 00:26:06.308 11154 INFO neutron.services.metering.agents.metering_agent [-] Loading Metering driver neutron.services.metering.drivers.noop.noop_driver.NoopMeteringDriver

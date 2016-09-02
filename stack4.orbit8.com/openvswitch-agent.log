@@ -1,0 +1,57 @@
+2016-09-01 23:42:35.029 16781 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:42:35.029 16781 INFO neutron.common.config [-] /usr/bin/neutron-openvswitch-agent version 8.1.2
+2016-09-01 23:42:35.113 16781 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=16811
+2016-09-01 23:42:35.172 16781 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] Mapping physical network br-vlan to bridge br-vlan
+2016-09-01 23:42:35.293 16781 INFO neutron.agent.l2.extensions.manager [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] Loaded agent extensions: []
+2016-09-01 23:42:35.345 16781 INFO neutron.common.ipv6_utils [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] IPv6 is not enabled on this system.
+2016-09-01 23:42:35.435 16781 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [-] Agent has just been revived. Doing a full sync.
+2016-09-01 23:42:35.701 16781 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] Agent initialized successfully, now running... 
+2016-09-01 23:42:35.706 16781 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] rpc_loop doing a full sync.
+2016-09-01 23:42:35.712 16781 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] Configuring tunnel endpoints to other OVS agents
+2016-09-01 23:42:35.922 16781 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] Agent out of sync with plugin!
+2016-09-01 23:42:55.707 16781 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] Agent caught SIGTERM, quitting daemon loop.
+2016-09-01 23:42:55.759 16781 ERROR neutron.agent.linux.async_process [-] Error received from [ovsdb-client monitor Interface name,ofport,external_ids --format=json]: None
+2016-09-01 23:42:55.759 16781 ERROR neutron.agent.linux.async_process [-] Process [ovsdb-client monitor Interface name,ofport,external_ids --format=json] dies due to the error: None
+2016-09-01 23:42:55.764 16781 INFO oslo_rootwrap.client [req-aced8d32-4b2e-4c42-964f-049c2f1969e9 - - - - -] Stopping rootwrap daemon process with pid=16811
+2016-09-01 23:42:57.130 17036 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:42:57.131 17036 INFO neutron.common.config [-] /usr/bin/neutron-openvswitch-agent version 8.1.2
+2016-09-01 23:42:57.215 17036 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=17058
+2016-09-01 23:42:57.272 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Mapping physical network br-vlan to bridge br-vlan
+2016-09-01 23:42:57.389 17036 INFO neutron.agent.l2.extensions.manager [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Loaded agent extensions: []
+2016-09-01 23:42:57.443 17036 INFO neutron.common.ipv6_utils [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] IPv6 is not enabled on this system.
+2016-09-01 23:42:57.912 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Agent initialized successfully, now running... 
+2016-09-01 23:42:57.923 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Configuring tunnel endpoints to other OVS agents
+2016-09-02 00:01:24.723 17036 INFO neutron.agent.securitygroups_rpc [req-01291ec9-8a14-4339-bd99-8e6c5da71f95 c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:02:29.228 17036 INFO neutron.agent.securitygroups_rpc [req-e1b9ee10-f6c8-4dc7-85a5-be05bc0fc907 c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:02:29.748 17036 INFO neutron.agent.securitygroups_rpc [req-cb8c7a70-3af0-4bc0-8dc7-c892b29c34ce c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:02:29.816 17036 INFO neutron.agent.common.ovs_lib [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Port 1a79a4aa-72e2-4f9f-bbe2-7c1b3eb096a5 not present in bridge br-int
+2016-09-02 00:02:29.817 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] port_unbound(): net_uuid None not in local_vlan_map
+2016-09-02 00:02:29.817 17036 INFO neutron.agent.securitygroups_rpc [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Remove device filter for [u'1a79a4aa-72e2-4f9f-bbe2-7c1b3eb096a5']
+2016-09-02 00:05:54.546 17036 INFO neutron.agent.securitygroups_rpc [req-ccd3a419-b7ef-4fe6-9c52-4d0067dcf870 c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:05:54.978 17036 INFO neutron.agent.securitygroups_rpc [req-87d0f916-4d50-487e-b62b-66851c05e850 c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:05:55.834 17036 INFO neutron.agent.common.ovs_lib [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Port 39c59967-55c7-45c4-bd82-aa1a26175aeb not present in bridge br-int
+2016-09-02 00:05:55.834 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] port_unbound(): net_uuid None not in local_vlan_map
+2016-09-02 00:05:55.835 17036 INFO neutron.agent.securitygroups_rpc [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Remove device filter for [u'39c59967-55c7-45c4-bd82-aa1a26175aeb']
+2016-09-02 00:05:58.241 17036 INFO neutron.agent.securitygroups_rpc [req-45064e22-2f89-45bc-9ffd-7157b3432805 c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:05:58.657 17036 INFO neutron.agent.securitygroups_rpc [req-d7bec7c6-1a8f-4542-ad74-064022602d39 c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:05:59.836 17036 INFO neutron.agent.common.ovs_lib [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Port 960e6cd8-99da-401d-9b17-2944a01d4eed not present in bridge br-int
+2016-09-02 00:05:59.836 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] port_unbound(): net_uuid None not in local_vlan_map
+2016-09-02 00:05:59.837 17036 INFO neutron.agent.securitygroups_rpc [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Remove device filter for [u'960e6cd8-99da-401d-9b17-2944a01d4eed']
+2016-09-02 00:06:01.016 17036 INFO neutron.agent.securitygroups_rpc [req-31901e95-95a4-4683-9aa2-f1b31acd7b03 c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:06:01.443 17036 INFO neutron.agent.securitygroups_rpc [req-c0a8c279-3c4c-4fcc-baa5-d7c2accad586 c0bc6bd293694e058aaf419c3a5c1b33 e5275a07edc54c9c97b5b304fe3b1b9a - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:06:01.833 17036 INFO neutron.agent.common.ovs_lib [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Port ce23f2ef-4299-448e-8c74-72b63dd9ab4a not present in bridge br-int
+2016-09-02 00:06:01.834 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] port_unbound(): net_uuid None not in local_vlan_map
+2016-09-02 00:06:01.834 17036 INFO neutron.agent.securitygroups_rpc [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Remove device filter for [u'ce23f2ef-4299-448e-8c74-72b63dd9ab4a']
+2016-09-02 00:15:03.906 17036 INFO neutron.agent.common.ovs_lib [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Port 4b952ead-7e1b-481a-85c7-071281d73798 not present in bridge br-int
+2016-09-02 00:15:03.907 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] port_unbound(): net_uuid None not in local_vlan_map
+2016-09-02 00:15:03.907 17036 INFO neutron.agent.securitygroups_rpc [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Remove device filter for [u'4b952ead-7e1b-481a-85c7-071281d73798']
+2016-09-02 00:20:09.105 17036 INFO neutron.agent.securitygroups_rpc [req-7ff8b639-8a44-4d8c-8385-3aca32131b99 a01a11068ae742de856b960cad5860f2 4609a26e18504a5e828b2f02a95f3014 - - -] Security group member updated [u'2370e409-5e19-42ba-b636-f07d0d665de6']
+2016-09-02 00:20:09.944 17036 INFO neutron.agent.common.ovs_lib [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Port d411ccce-9c9f-4fed-9552-07b2bb032390 not present in bridge br-int
+2016-09-02 00:20:09.944 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] port_unbound(): net_uuid None not in local_vlan_map
+2016-09-02 00:20:09.945 17036 INFO neutron.agent.securitygroups_rpc [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Remove device filter for [u'd411ccce-9c9f-4fed-9552-07b2bb032390']
+2016-09-02 00:20:21.945 17036 INFO neutron.agent.common.ovs_lib [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Port 762413b0-0808-4a69-89f8-32c235ef75ee not present in bridge br-int
+2016-09-02 00:20:21.945 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] port_unbound(): net_uuid None not in local_vlan_map
+2016-09-02 00:20:21.945 17036 INFO neutron.agent.securitygroups_rpc [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Remove device filter for [u'762413b0-0808-4a69-89f8-32c235ef75ee']
+2016-09-02 00:39:10.043 17036 INFO neutron.agent.common.ovs_lib [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Port fa3bdb31-6f22-4593-8762-3be821e65402 not present in bridge br-int
+2016-09-02 00:39:10.043 17036 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] port_unbound(): net_uuid None not in local_vlan_map
+2016-09-02 00:39:10.044 17036 INFO neutron.agent.securitygroups_rpc [req-c24f047d-3d46-40ec-96c3-89854d6b0758 - - - - -] Remove device filter for [u'fa3bdb31-6f22-4593-8762-3be821e65402']

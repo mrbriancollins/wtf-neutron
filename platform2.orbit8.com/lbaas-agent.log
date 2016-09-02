@@ -1,0 +1,9 @@
+2016-09-01 23:42:55.060 30449 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:42:55.061 30449 INFO neutron.common.config [-] /usr/bin/neutron-lbaas-agent version 8.1.2
+2016-09-01 23:42:55.066 30449 WARNING neutron.services.provider_configuration [req-8c4cf78f-a4e7-4b7b-937c-01be949cbf2d - - - - -] The configured driver neutron.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver has been moved, automatically using neutron_lbaas.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver instead. Please update your config files, as this automatic fixup will be removed in a future release.
+2016-09-01 23:43:16.858 31552 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:43:16.859 31552 INFO neutron.common.config [-] /usr/bin/neutron-lbaas-agent version 8.1.2
+2016-09-01 23:43:16.864 31552 WARNING neutron.services.provider_configuration [req-879e83c5-e9dd-427b-9dff-65a00a2f2f33 - - - - -] The configured driver neutron.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver has been moved, automatically using neutron_lbaas.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver instead. Please update your config files, as this automatic fixup will be removed in a future release.
+2016-09-02 00:26:06.140 11146 INFO neutron.common.config [-] Logging enabled!
+2016-09-02 00:26:06.140 11146 INFO neutron.common.config [-] /usr/bin/neutron-lbaas-agent version 8.1.2
+2016-09-02 00:26:06.142 11146 WARNING neutron.services.provider_configuration [req-558d9779-5bd3-4dbc-a82b-b63f5e20774a - - - - -] The configured driver neutron.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver has been moved, automatically using neutron_lbaas.services.loadbalancer.drivers.haproxy.namespace_driver.HaproxyNSDriver instead. Please update your config files, as this automatic fixup will be removed in a future release.

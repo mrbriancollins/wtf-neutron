@@ -1,0 +1,29 @@
+2016-09-01 23:42:51.648 16636 INFO oslo_rootwrap.client [req-f85f1f08-9abd-48e4-aa43-00d11047fd63 - - - - -] Stopping rootwrap daemon process with pid=20878
+2016-09-01 23:42:55.152 30487 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:42:55.153 30487 INFO neutron.common.config [-] /usr/bin/neutron-vpn-agent version 8.1.2
+2016-09-01 23:43:01.029 30487 INFO neutron.common.ipv6_utils [req-16a15302-b9d2-47bc-ba2b-3bff83185cbc - - - - -] IPv6 is not enabled on this system.
+2016-09-01 23:43:01.082 30487 INFO eventlet.wsgi.server [-] (30487) wsgi starting up on http:///:v/
+2016-09-01 23:43:01.310 30487 INFO neutron.agent.l3.agent [-] L3 agent started
+2016-09-01 23:43:04.133 30487 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=31342
+2016-09-01 23:43:04.205 30487 INFO neutron.agent.linux.interface [req-8113444e-3bf9-4017-b50c-f3dc8f59e14d - 4609a26e18504a5e828b2f02a95f3014 - - -] Device qg-4b952ead-7e already exists
+2016-09-01 23:43:04.233 30487 INFO neutron.agent.linux.interface [req-b02ca60f-5303-4817-af9e-35d6050a9712 - c44a0e26e90341e7afd8258b6801560a - - -] Device qr-6739a7f0-06 already exists
+2016-09-01 23:43:04.265 30487 INFO neutron.agent.linux.interface [req-b02ca60f-5303-4817-af9e-35d6050a9712 - c44a0e26e90341e7afd8258b6801560a - - -] Device qg-6e26382d-05 already exists
+2016-09-01 23:43:14.329 30487 INFO oslo_rootwrap.client [req-9e98e292-28fb-46cd-8cfd-4269914f0692 - - - - -] Stopping rootwrap daemon process with pid=31342
+2016-09-01 23:43:17.891 31664 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:43:17.892 31664 INFO neutron.common.config [-] /usr/bin/neutron-vpn-agent version 8.1.2
+2016-09-01 23:43:23.330 31664 INFO neutron.common.ipv6_utils [req-61795498-3742-4644-9129-3738d184e3dd - - - - -] IPv6 is not enabled on this system.
+2016-09-01 23:43:23.375 31664 INFO eventlet.wsgi.server [-] (31664) wsgi starting up on http:///:v/
+2016-09-01 23:43:23.645 31664 INFO neutron.agent.l3.agent [-] L3 agent started
+2016-09-01 23:43:27.449 31664 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=32395
+2016-09-01 23:43:27.530 31664 INFO neutron.agent.linux.interface [req-bb692678-6ebd-4877-bb87-49bedf47e7fd - c44a0e26e90341e7afd8258b6801560a - - -] Device qr-6739a7f0-06 already exists
+2016-09-01 23:43:27.557 31664 INFO neutron.agent.linux.interface [req-bb692678-6ebd-4877-bb87-49bedf47e7fd - c44a0e26e90341e7afd8258b6801560a - - -] Device qg-6e26382d-05 already exists
+2016-09-01 23:43:27.559 31664 INFO neutron.agent.linux.interface [req-608e4812-a933-4161-89e1-a7cddeb4b798 - 4609a26e18504a5e828b2f02a95f3014 - - -] Device qg-4b952ead-7e already exists
+2016-09-02 00:23:44.829 31664 INFO neutron.agent.linux.interface [req-bad95be1-a69f-4c70-bf18-dfa3506cebb8 - 4609a26e18504a5e828b2f02a95f3014 - - -] Device qg-09385c2e-10 already exists
+2016-09-02 00:24:10.383 31664 INFO neutron.agent.linux.interface [req-7491b593-24fe-4ccc-86fb-b0bfd94f0d98 - 4609a26e18504a5e828b2f02a95f3014 - - -] Device qg-fa3bdb31-6f already exists
+2016-09-02 00:26:04.400 31664 INFO oslo_rootwrap.client [req-0a17a8d2-9ee3-442e-8113-aff9ade86cda - - - - -] Stopping rootwrap daemon process with pid=32395
+2016-09-02 00:26:06.277 11152 INFO neutron.common.config [-] Logging enabled!
+2016-09-02 00:26:06.277 11152 INFO neutron.common.config [-] /usr/bin/neutron-vpn-agent version 8.1.2
+2016-09-02 00:26:11.323 11152 INFO neutron.common.ipv6_utils [req-e99f149e-9622-4b5e-bf20-81e4d3aad691 - - - - -] IPv6 is not enabled on this system.
+2016-09-02 00:26:11.375 11152 INFO eventlet.wsgi.server [-] (11152) wsgi starting up on http:///:v/
+2016-09-02 00:26:11.639 11152 INFO neutron.agent.l3.agent [-] L3 agent started
+2016-09-02 00:26:18.797 11152 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=11577

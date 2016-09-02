@@ -1,0 +1,73 @@
+2016-09-01 23:42:51.866 16542 INFO oslo_rootwrap.client [req-f2abe499-13f9-4aff-8305-6ceec4a542aa - - - - -] Stopping rootwrap daemon process with pid=21047
+2016-09-01 23:42:55.915 30524 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:42:55.915 30524 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 8.1.2
+2016-09-01 23:42:55.991 30524 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2016-09-01 23:43:01.631 30524 INFO neutron.agent.dhcp.agent [-] All active networks have been fetched through RPC.
+2016-09-01 23:43:01.631 30524 INFO neutron.agent.dhcp.agent [-] Starting network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-01 23:43:01.640 30524 INFO neutron.agent.dhcp.agent [-] Starting network 472e77a7-f01d-4fcf-974b-485522822598 dhcp configuration
+2016-09-01 23:43:01.641 30524 INFO neutron.agent.dhcp.agent [-] Finished network 472e77a7-f01d-4fcf-974b-485522822598 dhcp configuration
+2016-09-01 23:43:01.641 30524 INFO neutron.agent.dhcp.agent [-] Starting network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-01 23:43:01.642 30524 INFO neutron.agent.dhcp.agent [-] Finished network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-01 23:43:01.758 30524 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=31260
+2016-09-01 23:43:01.804 30524 INFO neutron.agent.dhcp.agent [-] Finished network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-01 23:43:01.805 30524 INFO neutron.agent.dhcp.agent [-] Synchronizing state complete
+2016-09-01 23:43:01.822 30524 INFO neutron.agent.dhcp.agent [req-e6f967a1-6eea-4a6f-afc9-d81ff02c44a3 - - - - -] Synchronizing state
+2016-09-01 23:43:01.870 30524 INFO neutron.agent.dhcp.agent [-] DHCP agent started
+2016-09-01 23:43:03.155 30524 INFO neutron.agent.dhcp.agent [req-e6f967a1-6eea-4a6f-afc9-d81ff02c44a3 - - - - -] All active networks have been fetched through RPC.
+2016-09-01 23:43:03.156 30524 INFO neutron.agent.dhcp.agent [-] Starting network 472e77a7-f01d-4fcf-974b-485522822598 dhcp configuration
+2016-09-01 23:43:03.157 30524 INFO neutron.agent.dhcp.agent [-] Finished network 472e77a7-f01d-4fcf-974b-485522822598 dhcp configuration
+2016-09-01 23:43:03.157 30524 INFO neutron.agent.dhcp.agent [-] Starting network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-01 23:43:03.158 30524 INFO neutron.agent.dhcp.agent [-] Starting network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-01 23:43:03.159 30524 INFO neutron.agent.dhcp.agent [-] Finished network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-01 23:43:03.192 30524 INFO neutron.agent.dhcp.agent [-] Finished network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-01 23:43:03.192 30524 INFO neutron.agent.dhcp.agent [req-e6f967a1-6eea-4a6f-afc9-d81ff02c44a3 - - - - -] Synchronizing state complete
+2016-09-01 23:43:13.881 30524 INFO oslo_rootwrap.client [req-db88ab14-584a-445c-976d-71c0933134c3 - - - - -] Stopping rootwrap daemon process with pid=31260
+2016-09-01 23:43:17.180 31558 INFO neutron.common.config [-] Logging enabled!
+2016-09-01 23:43:17.181 31558 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 8.1.2
+2016-09-01 23:43:17.259 31558 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2016-09-01 23:43:23.908 31558 INFO neutron.agent.dhcp.agent [-] All active networks have been fetched through RPC.
+2016-09-01 23:43:23.908 31558 INFO neutron.agent.dhcp.agent [-] Starting network 472e77a7-f01d-4fcf-974b-485522822598 dhcp configuration
+2016-09-01 23:43:23.909 31558 INFO neutron.agent.dhcp.agent [-] Finished network 472e77a7-f01d-4fcf-974b-485522822598 dhcp configuration
+2016-09-01 23:43:23.909 31558 INFO neutron.agent.dhcp.agent [-] Starting network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-01 23:43:23.926 31558 INFO neutron.agent.dhcp.agent [-] Starting network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-01 23:43:23.927 31558 INFO neutron.agent.dhcp.agent [-] Finished network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-01 23:43:24.034 31558 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=32328
+2016-09-01 23:43:24.105 31558 INFO neutron.agent.dhcp.agent [-] Finished network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-01 23:43:24.105 31558 INFO neutron.agent.dhcp.agent [-] Synchronizing state complete
+2016-09-01 23:43:24.131 31558 INFO neutron.agent.dhcp.agent [req-ab140eee-f2c9-41d1-a25b-c42d08b727dd - - - - -] Synchronizing state
+2016-09-01 23:43:24.179 31558 INFO neutron.agent.dhcp.agent [-] DHCP agent started
+2016-09-01 23:43:24.538 31558 INFO neutron.agent.dhcp.agent [req-ab140eee-f2c9-41d1-a25b-c42d08b727dd - - - - -] All active networks have been fetched through RPC.
+2016-09-01 23:43:24.539 31558 INFO neutron.agent.dhcp.agent [-] Starting network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-01 23:43:24.540 31558 INFO neutron.agent.dhcp.agent [-] Finished network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-01 23:43:24.540 31558 INFO neutron.agent.dhcp.agent [-] Starting network 472e77a7-f01d-4fcf-974b-485522822598 dhcp configuration
+2016-09-01 23:43:24.540 31558 INFO neutron.agent.dhcp.agent [-] Finished network 472e77a7-f01d-4fcf-974b-485522822598 dhcp configuration
+2016-09-01 23:43:24.540 31558 INFO neutron.agent.dhcp.agent [-] Starting network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-01 23:43:24.574 31558 INFO neutron.agent.dhcp.agent [-] Finished network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-01 23:43:24.575 31558 INFO neutron.agent.dhcp.agent [req-ab140eee-f2c9-41d1-a25b-c42d08b727dd - - - - -] Synchronizing state complete
+2016-09-02 00:26:04.320 31558 INFO oslo_rootwrap.client [req-2956b453-e5d1-4f54-996d-b0a6ca3fa7d8 - - - - -] Stopping rootwrap daemon process with pid=32328
+2016-09-02 00:26:09.598 11315 INFO neutron.common.config [-] Logging enabled!
+2016-09-02 00:26:09.598 11315 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 8.1.2
+2016-09-02 00:26:09.639 11315 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2016-09-02 00:26:11.939 11315 INFO neutron.agent.dhcp.agent [-] All active networks have been fetched through RPC.
+2016-09-02 00:26:11.940 11315 INFO neutron.agent.dhcp.agent [-] Starting network 424e2f07-75bc-4cac-9587-118418c6800c dhcp configuration
+2016-09-02 00:26:11.940 11315 INFO neutron.agent.dhcp.agent [-] Finished network 424e2f07-75bc-4cac-9587-118418c6800c dhcp configuration
+2016-09-02 00:26:11.941 11315 INFO neutron.agent.dhcp.agent [-] Starting network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-02 00:26:11.948 11315 INFO neutron.agent.dhcp.agent [-] Starting network 27940454-1e6a-42dd-92b9-7faf85934b44 dhcp configuration
+2016-09-02 00:26:11.949 11315 INFO neutron.agent.dhcp.agent [-] Finished network 27940454-1e6a-42dd-92b9-7faf85934b44 dhcp configuration
+2016-09-02 00:26:11.950 11315 INFO neutron.agent.dhcp.agent [-] Starting network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-02 00:26:11.950 11315 INFO neutron.agent.dhcp.agent [-] Finished network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-02 00:26:12.047 11315 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=11452
+2016-09-02 00:26:12.184 11315 INFO neutron.agent.dhcp.agent [-] Finished network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-02 00:26:12.184 11315 INFO neutron.agent.dhcp.agent [-] Synchronizing state complete
+2016-09-02 00:26:12.199 11315 INFO neutron.agent.dhcp.agent [req-2e8e4e5a-2fc7-4c5e-b2c2-2e3693b4ad61 - - - - -] Synchronizing state
+2016-09-02 00:26:12.235 11315 INFO neutron.agent.dhcp.agent [-] DHCP agent started
+2016-09-02 00:26:12.537 11315 INFO neutron.agent.dhcp.agent [req-2e8e4e5a-2fc7-4c5e-b2c2-2e3693b4ad61 - - - - -] All active networks have been fetched through RPC.
+2016-09-02 00:26:12.538 11315 INFO neutron.agent.dhcp.agent [-] Starting network 424e2f07-75bc-4cac-9587-118418c6800c dhcp configuration
+2016-09-02 00:26:12.539 11315 INFO neutron.agent.dhcp.agent [-] Finished network 424e2f07-75bc-4cac-9587-118418c6800c dhcp configuration
+2016-09-02 00:26:12.539 11315 INFO neutron.agent.dhcp.agent [-] Starting network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-02 00:26:12.540 11315 INFO neutron.agent.dhcp.agent [-] Starting network 27940454-1e6a-42dd-92b9-7faf85934b44 dhcp configuration
+2016-09-02 00:26:12.540 11315 INFO neutron.agent.dhcp.agent [-] Finished network 27940454-1e6a-42dd-92b9-7faf85934b44 dhcp configuration
+2016-09-02 00:26:12.541 11315 INFO neutron.agent.dhcp.agent [-] Starting network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-02 00:26:12.541 11315 INFO neutron.agent.dhcp.agent [-] Finished network 2e81e9bf-a6b0-431c-bf15-eeacbb07ea5a dhcp configuration
+2016-09-02 00:26:12.574 11315 INFO neutron.agent.dhcp.agent [-] Finished network 81d0b820-ccd3-40ed-8858-57d69b3c7702 dhcp configuration
+2016-09-02 00:26:12.575 11315 INFO neutron.agent.dhcp.agent [req-2e8e4e5a-2fc7-4c5e-b2c2-2e3693b4ad61 - - - - -] Synchronizing state complete

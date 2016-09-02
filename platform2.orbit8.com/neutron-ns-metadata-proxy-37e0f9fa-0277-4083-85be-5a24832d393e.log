@@ -1,0 +1,4 @@
+2016-09-02 00:24:09.708 7951 INFO neutron.common.config [-] Logging enabled!
+2016-09-02 00:24:09.708 7951 INFO neutron.common.config [-] /bin/neutron-ns-metadata-proxy version 8.1.2
+2016-09-02 00:24:09.719 7965 INFO neutron.agent.linux.daemon [-] Process runs with uid/gid: 992/989
+2016-09-02 00:24:09.720 7965 INFO neutron.wsgi [-] (7965) wsgi starting up on http://0.0.0.0:9697/
